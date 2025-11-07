@@ -1,0 +1,80 @@
+{
+  "id": "admiral",
+  "name": "Admiral",
+  "altName": null,
+  "country": "UK",
+  "descriptors": [
+    "fruity",
+    "citrusy",
+    "herbal",
+    "spicy"
+  ],
+  "origin": "Bred at Wye College to complement Target. Released in the late nineties and still growing in acreage, it promises eventually to yield higher than Target.",
+  "aroma": {
+    "citrusy": 3,
+    "fruity": 4,
+    "floral": 1,
+    "herbal": 3,
+    "spicy": 3,
+    "resinous": 2,
+    "sugarlike": 1,
+    "misc": 0,
+  },
+  "aromaDescription": [
+    "fruity",
+    "tea",
+    "citrusy"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1000,
+      "max": 1200
+    },
+    "maturity": "early to mid early",
+    "wiltDisease": "susceptible",
+    "downyMildew": "resistant",
+    "powderyMildew": "susceptible",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 11.0,
+      "max": 15.0
+    },
+    "betas": {
+      "min": 5.0,
+      "max": 6.0
+    },
+    "cohumulones": {
+      "min": 42,
+      "max": 44
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.7,
+      "max": 0.8
+    },
+    "oils": {
+      "min": 1.0,
+      "max": 1.7
+    },
+    "farnesenes": {
+      "min": 1.0,
+      "max": 2.0
+    },
+    "linalool": null,
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [
+        "challenger",
+        "northdown",
+        "target"
+      ],
+      "dryhopping": [
+        "challenger",
+        "northdown",
+        "target"
+      ]
+    }
+  }
+}
