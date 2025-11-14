@@ -1,0 +1,84 @@
+{
+  "id": "hallertauer-tradition",
+  "name": "Hallertauer Tradition",
+  "altName": null,
+  "country": "DE",
+  "descriptors": [
+    "herbal",
+    "citrusy"
+  ],
+  "origin": "A cross between Hallertauer Gold and 75/15/106M originating in Germany, released in 1993.",
+  "lineage": [
+    "hallertauer gold",
+    "75/15/106m"
+  ],
+  "aroma": {
+    "citrusy": 3,
+    "fruity": 2,
+    "floral": 1,
+    "herbal": 4,
+    "spicy": 1,
+    "resinous": 1,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "tea",
+    "spicy",
+    "orange",
+    "lavender"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1750,
+      "max": 2000
+    },
+    "maturity": "early to mid early",
+    "wiltDisease": "resistant",
+    "downyMildew": "resistant",
+    "powderyMildew": "resistant",
+    "aphid": "susceptible"
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 4.0,
+      "max": 7.0
+    },
+    "betas": {
+      "min": 3.0,
+      "max": 6.0
+    },
+    "cohumulones": {
+      "min": 24,
+      "max": 30
+    },
+    "polyphenols": 4.3,
+    "xanthohumols": {
+      "min": 0.3,
+      "max": 0.5
+    },
+    "oils": {
+      "min": 0.3,
+      "max": 0.7
+    },
+    "farnesenes": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "linalool": {
+      "min": 0.7,
+      "max": 1.3
+    },
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [
+        "perle",
+        "akoya",
+        "spalter-select",
+        "saphir",
+        "styrian-golding-(celeia)"
+      ],
+      "dryhopping": []
+    }
+  }
+}

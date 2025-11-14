@@ -1,0 +1,80 @@
+{
+  "id": "hallertauer-mittelfruh",
+  "name": "Hallertauer Mittelfrüh",
+  "altName": null,
+  "country": "DE",
+  "descriptors": [
+    "herbal"
+  ],
+  "origin": "A landrace variety originating in Germany.",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 1,
+    "fruity": 1,
+    "floral": 1,
+    "herbal": 3,
+    "spicy": 2,
+    "resinous": 0,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "spicy",
+    "grassy",
+    "tea",
+    "slight citrusy"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1050,
+      "max": 1300
+    },
+    "maturity": "early",
+    "wiltDisease": "susceptible",
+    "downyMildew": "susceptible",
+    "powderyMildew": "tolerant",
+    "aphid": "susceptible"
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 3.0,
+      "max": 5.5
+    },
+    "betas": {
+      "min": 3.0,
+      "max": 5.0
+    },
+    "cohumulones": {
+      "min": 18,
+      "max": 28
+    },
+    "polyphenols": 4.6,
+    "xanthohumols": {
+      "min": 0.2,
+      "max": 0.3
+    },
+    "oils": {
+      "min": 0.7,
+      "max": 1.3
+    },
+    "farnesenes": {
+      "min": 0,
+      "max": 1.0
+    },
+    "linalool": {
+      "min": 0.7,
+      "max": 1.1
+    },
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [
+        "hallertauer-tradition",
+        "mount-hood"
+      ],
+      "dryhopping": [
+        "saphir",
+        "crystal"
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "sovereign",
+  "name": "Sovereign",
+  "altName": null,
+  "country": "UK",
+  "descriptors": [
+    "fruity",
+    "sugarlike"
+  ],
+  "origin": "Dwarf variety recently developedat Wye Hops Ltd. by Peter Darby; noticeable for ist very high ratio of cones to leaf at harvest.",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 1,
+    "fruity": 4,
+    "floral": 0,
+    "herbal": 2,
+    "spicy": 2,
+    "resinous": 1,
+    "sugarlike": 3,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "fruity",
+    "pear",
+    "sweet"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1500,
+      "max": 1750
+    },
+    "maturity": "mid early to late",
+    "wiltDisease": null,
+    "downyMildew": "tolerant",
+    "powderyMildew": "tolerant",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 5.0,
+      "max": 6.0
+    },
+    "betas": {
+      "min": 2.2,
+      "max": 2.4
+    },
+    "cohumulones": {
+      "min": 27,
+      "max": 29
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.2,
+      "max": 0.4
+    },
+    "oils": {
+      "min": 0.6,
+      "max": 0.8
+    },
+    "farnesenes": {
+      "min": 3.4,
+      "max": 3.8
+    },
+    "linalool": {
+      "min": 0.4,
+      "max": 0.7
+    },
+    "thiols": null,
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

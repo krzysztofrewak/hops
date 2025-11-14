@@ -1,0 +1,81 @@
+{
+  "id": "calypso",
+  "name": "Calypso",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "fruity",
+    "herbal",
+    "sugarlike"
+  ],
+  "origin": "Hopsteiner breeding program",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 1,
+    "fruity": 3,
+    "floral": 1,
+    "herbal": 3,
+    "spicy": 0,
+    "resinous": 2,
+    "sugarlike": 3,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "pear",
+    "apple",
+    "tropical fruit",
+    "mint"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 2800,
+      "max": 3000
+    },
+    "maturity": "early",
+    "wiltDisease": null,
+    "downyMildew": "tolerant",
+    "powderyMildew": "susceptible",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 12.0,
+      "max": 14.0
+    },
+    "betas": {
+      "min": 5.0,
+      "max": 6.0
+    },
+    "cohumulones": {
+      "min": 40,
+      "max": 42
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.5,
+      "max": 0.7
+    },
+    "oils": {
+      "min": 1.6,
+      "max": 2.5
+    },
+    "farnesenes": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "linalool": {
+      "min": 0.3,
+      "max": 0.5
+    },
+    "thiols": "high",
+    "alternatives": {
+      "brewhouse": [
+        "lotus"
+      ],
+      "dryhopping": [
+        "hüll-melon",
+        "lotus"
+      ]
+    }
+  }
+}

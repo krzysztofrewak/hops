@@ -1,0 +1,75 @@
+{
+  "id": "first-gold",
+  "name": "First Gold",
+  "altName": null,
+  "country": "UK",
+  "descriptors": [
+    "herbal"
+  ],
+  "origin": "A dwarf hop bred at Wye College from a cross pollination of WGV with a dwarf male; released in the late nineties it has successfully progressed from trial plots into full production.",
+  "lineage": [
+    "wgv"
+  ],
+  "aroma": {
+    "citrusy": 2,
+    "fruity": 2,
+    "floral": 2,
+    "herbal": 3,
+    "spicy": 1,
+    "resinous": 2,
+    "sugarlike": 2,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "red fruits",
+    "herbal notes"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1750,
+      "max": 1750
+    },
+    "maturity": "early to mid early",
+    "wiltDisease": "tolerant",
+    "downyMildew": "susceptible",
+    "powderyMildew": "resistant",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 6.0,
+      "max": 10.0
+    },
+    "betas": {
+      "min": 3.0,
+      "max": 4.0
+    },
+    "cohumulones": {
+      "min": 32,
+      "max": 35
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.2,
+      "max": 0.3
+    },
+    "oils": {
+      "min": 0.7,
+      "max": 1.3
+    },
+    "farnesenes": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "linalool": null,
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [
+        "golding-uk"
+      ],
+      "dryhopping": [
+        "golding-uk"
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "glacier",
+  "name": "Glacier",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "herbal"
+  ],
+  "origin": "Cross between Elsasser F and 8685-014 M. Genetic composition is 1/2 Elsasser 5/32 Brewer's Gold, 1/8 Northern Brewer, 1/16 Bullion, 1/32 Early Green, 1/32 German Aroma hop, 1/64 East Kent Golding, 1/128 Bavarian and 9/128 unknown.",
+  "lineage": [
+    "elsasser",
+    "8685-014 m"
+  ],
+  "aroma": {
+    "citrusy": 2,
+    "fruity": 2,
+    "floral": 1,
+    "herbal": 3,
+    "spicy": 0,
+    "resinous": 1,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "grass",
+    "cedar",
+    "fruity"
+  ],
+  "agronomic": {
+    "yield": null,
+    "maturity": "early to mid early",
+    "wiltDisease": null,
+    "downyMildew": "susceptible",
+    "powderyMildew": "susceptible",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 3.5,
+      "max": 9.5
+    },
+    "betas": {
+      "min": 5.4,
+      "max": 9.5
+    },
+    "cohumulones": {
+      "min": 11,
+      "max": 13
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.2,
+      "max": 0.3
+    },
+    "oils": {
+      "min": 0.7,
+      "max": 1.6
+    },
+    "farnesenes": {
+      "min": 0,
+      "max": 1.0
+    },
+    "linalool": null,
+    "thiols": null,
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

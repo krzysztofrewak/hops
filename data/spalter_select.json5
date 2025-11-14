@@ -1,0 +1,85 @@
+{
+  "id": "spalter-select",
+  "name": "Spalter Select",
+  "altName": null,
+  "country": "DE",
+  "descriptors": [
+    "spicy",
+    "herbal"
+  ],
+  "origin": "A cross from 76/18/80 and 71/16/7, released in 1993.",
+  "lineage": [
+    "76/18/80",
+    "71/16/7"
+  ],
+  "aroma": {
+    "citrusy": 2,
+    "fruity": 1,
+    "floral": 2,
+    "herbal": 3,
+    "spicy": 3,
+    "resinous": 2,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "spicy",
+    "floral notes",
+    "grassy notes"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1750,
+      "max": 2000
+    },
+    "maturity": "mid early to late",
+    "wiltDisease": "resistant",
+    "downyMildew": "resistant",
+    "powderyMildew": "tolerant",
+    "aphid": "resistant"
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 3.0,
+      "max": 6.5
+    },
+    "betas": {
+      "min": 2.5,
+      "max": 5.0
+    },
+    "cohumulones": {
+      "min": 21,
+      "max": 27
+    },
+    "polyphenols": 4.9,
+    "xanthohumols": {
+      "min": 0.3,
+      "max": 0.5
+    },
+    "oils": {
+      "min": 0.5,
+      "max": 0.9
+    },
+    "farnesenes": {
+      "min": 1.0,
+      "max": 1.5
+    },
+    "linalool": {
+      "min": 1.0,
+      "max": 1.5
+    },
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [
+        "hallertauer-tradition",
+        "styrian-golding-(celeia)",
+        "saphir"
+      ],
+      "dryhopping": [
+        "perle",
+        "hallertauer-tradition",
+        "styrian-golding-(celeia)"
+      ]
+    }
+  }
+}

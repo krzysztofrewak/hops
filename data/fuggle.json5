@@ -1,0 +1,79 @@
+{
+  "id": "fuggle",
+  "name": "Fuggle",
+  "altName": null,
+  "country": "UK",
+  "descriptors": [
+    "resinous",
+    "spicy"
+  ],
+  "origin": "Seedling selected in 1875 in England.",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 2,
+    "fruity": 0,
+    "floral": 0,
+    "herbal": 2,
+    "spicy": 3,
+    "resinous": 4,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "mild",
+    "grassy",
+    "mint",
+    "earthy"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1200,
+      "max": 1400
+    },
+    "maturity": "early",
+    "wiltDisease": "susceptible",
+    "downyMildew": "tolerant",
+    "powderyMildew": "susceptible",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 3.0,
+      "max": 6.0
+    },
+    "betas": {
+      "min": 2.0,
+      "max": 3.0
+    },
+    "cohumulones": {
+      "min": 30,
+      "max": 33
+    },
+    "polyphenols": 4.6,
+    "xanthohumols": {
+      "min": 0.1,
+      "max": 0.3
+    },
+    "oils": {
+      "min": 0.7,
+      "max": 1.2
+    },
+    "farnesenes": {
+      "min": 5.0,
+      "max": 6.0
+    },
+    "linalool": null,
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [
+        "styrian-golding-celeia",
+        "willamette",
+        "delta"
+      ],
+      "dryhopping": [
+        "delta",
+        "willamette"
+      ]
+    }
+  }
+}

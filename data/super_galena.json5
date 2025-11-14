@@ -1,0 +1,73 @@
+{
+  "id": "super-galena",
+  "name": "Super Galena",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "resinous",
+    "spicy"
+  ],
+  "origin": "Hopsteiner breeding program",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 1,
+    "fruity": 1,
+    "floral": 1,
+    "herbal": 2,
+    "spicy": 3,
+    "resinous": 4,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "grassy",
+    "herbal"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 2800,
+      "max": 3000
+    },
+    "maturity": "very late",
+    "wiltDisease": null,
+    "downyMildew": null,
+    "powderyMildew": "susceptible",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 13.0,
+      "max": 16.0
+    },
+    "betas": {
+      "min": 2.5,
+      "max": 8.0
+    },
+    "cohumulones": {
+      "min": 35,
+      "max": 40
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.5,
+      "max": 0.7
+    },
+    "oils": {
+      "min": 0.8,
+      "max": 2.5
+    },
+    "farnesenes": {
+      "min": 0,
+      "max": 1.0
+    },
+    "linalool": {
+      "min": 0.3,
+      "max": 0.6
+    },
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

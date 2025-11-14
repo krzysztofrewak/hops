@@ -1,0 +1,87 @@
+{
+  "id": "crystal",
+  "name": "Crystal",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "herbal"
+  ],
+  "origin": "A triploid Hallertau Mittelfrueh x (Cascade x USDA 65009-64034M). Half-sister of Mt. Hood, Liberty and Ultra.",
+  "lineage": [
+    "hallertau-mittelfrueh",
+    "cascade",
+    "mt-hood",
+    "liberty",
+    "ultra"
+  ],
+  "aroma": {
+    "citrusy": 2,
+    "fruity": 2,
+    "floral": 1,
+    "herbal": 3,
+    "spicy": 2,
+    "resinous": 2,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "grass",
+    "pine",
+    "citrus"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 2100,
+      "max": 2500
+    },
+    "maturity": "mid early to late",
+    "wiltDisease": null,
+    "downyMildew": "susceptible",
+    "powderyMildew": "susceptible",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 2.5,
+      "max": 4.0
+    },
+    "betas": {
+      "min": 4.0,
+      "max": 6.5
+    },
+    "cohumulones": {
+      "min": 19,
+      "max": 23
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.1,
+      "max": 0.3
+    },
+    "oils": {
+      "min": 0.8,
+      "max": 1.8
+    },
+    "farnesenes": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "linalool": {
+      "min": 0.6,
+      "max": 0.8
+    },
+    "thiols": "high",
+    "alternatives": {
+      "brewhouse": [
+        "mount-hood",
+        "hallertauer-mittelfrüh",
+        "strisselspalter"
+      ],
+      "dryhopping": [
+        "mount-hood",
+        "hallertauer-mittelfrüh",
+        "strisselspalter"
+      ]
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "liberty",
+  "name": "Liberty",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "herbal"
+  ],
+  "origin": "A triploid seedling of the German Hallertau variety.",
+  "lineage": [
+    "hallertau"
+  ],
+  "aroma": {
+    "citrusy": 1,
+    "fruity": 1,
+    "floral": 2,
+    "herbal": 3,
+    "spicy": 2,
+    "resinous": 2,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "herbal",
+    "spicy",
+    "rose"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1200,
+      "max": 2000
+    },
+    "maturity": "early to mid early",
+    "wiltDisease": null,
+    "downyMildew": "tolerant",
+    "powderyMildew": "susceptible",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 3.5,
+      "max": 6.5
+    },
+    "betas": {
+      "min": 3.0,
+      "max": 4.0
+    },
+    "cohumulones": {
+      "min": 24,
+      "max": 28
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.2,
+      "max": 0.3
+    },
+    "oils": {
+      "min": 0.7,
+      "max": 1.2
+    },
+    "farnesenes": {
+      "min": 0,
+      "max": 1.0
+    },
+    "linalool": null,
+    "thiols": null,
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "zeus",
+  "name": "Zeus",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "spicy",
+    "herbal",
+    "citrusy",
+    "fruity",
+    "resinous"
+  ],
+  "origin": "A super high alpha variety developed in the Yakima valley as part of the Hopsteiner breeding program.",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 3,
+    "fruity": 3,
+    "floral": 2,
+    "herbal": 4,
+    "spicy": 4,
+    "resinous": 3,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "black pepper",
+    "slight citrusy",
+    "onion"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 2680,
+      "max": 3000
+    },
+    "maturity": "late",
+    "wiltDisease": null,
+    "downyMildew": null,
+    "powderyMildew": "susceptible",
+    "aphid": "susceptible"
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 15.0,
+      "max": 17.0
+    },
+    "betas": {
+      "min": 4.0,
+      "max": 6.0
+    },
+    "cohumulones": {
+      "min": 27,
+      "max": 35
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.5,
+      "max": 0.9
+    },
+    "oils": {
+      "min": 2.5,
+      "max": 3.5
+    },
+    "farnesenes": {
+      "min": 0.0,
+      "max": 0.1
+    },
+    "linalool": {
+      "min": 0.4,
+      "max": 0.6
+    },
+    "thiols": null,
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

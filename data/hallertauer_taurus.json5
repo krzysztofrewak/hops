@@ -1,0 +1,77 @@
+{
+  "id": "hallertauer-taurus",
+  "name": "Hallertauer Taurus",
+  "altName": null,
+  "country": "DE",
+  "descriptors": [
+    "spicy",
+    "fruity"
+  ],
+  "origin": "A German high alpha cross between 82/39/37 and 85/54/15M, bred in Huell; released in 1995.",
+  "lineage": [
+    "82/39/37",
+    "85/54/15m"
+  ],
+  "aroma": {
+    "citrusy": 2,
+    "fruity": 3,
+    "floral": 1,
+    "herbal": 2,
+    "spicy": 3,
+    "resinous": 1,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "pepper",
+    "currant",
+    "lime"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1600,
+      "max": 2000
+    },
+    "maturity": "late",
+    "wiltDisease": "resistant",
+    "downyMildew": "tolerant",
+    "powderyMildew": "susceptible",
+    "aphid": "susceptible"
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 15.0,
+      "max": 18.0
+    },
+    "betas": {
+      "min": 4.0,
+      "max": 6.0
+    },
+    "cohumulones": {
+      "min": 20,
+      "max": 25
+    },
+    "polyphenols": 3.1,
+    "xanthohumols": {
+      "min": 0.9,
+      "max": 1.0
+    },
+    "oils": {
+      "min": 0.9,
+      "max": 1.5
+    },
+    "farnesenes": {
+      "min": 0,
+      "max": 1.0
+    },
+    "linalool": {
+      "min": 1.0,
+      "max": 1.5
+    },
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

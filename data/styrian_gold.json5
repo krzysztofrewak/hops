@@ -1,0 +1,74 @@
+{
+  "id": "styrian-gold",
+  "name": "Styrian Gold",
+  "altName": null,
+  "country": "SI",
+  "descriptors": [
+    "herbal",
+    "fruity"
+  ],
+  "origin": null,
+  "lineage": [],
+  "aroma": {
+    "citrusy": 2,
+    "fruity": 3,
+    "floral": 2,
+    "herbal": 4,
+    "spicy": 2,
+    "resinous": 0,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "herbal",
+    "fruity",
+    "floral"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1600,
+      "max": 2200
+    },
+    "maturity": "early to mid early",
+    "wiltDisease": "resistant",
+    "downyMildew": "tolerant",
+    "powderyMildew": "resistant",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 3.5,
+      "max": 6.5
+    },
+    "betas": {
+      "min": 3.5,
+      "max": 5.9
+    },
+    "cohumulones": {
+      "min": 28,
+      "max": 35
+    },
+    "polyphenols": 4,
+    "xanthohumols": {
+      "min": 0.2,
+      "max": 0.4
+    },
+    "oils": {
+      "min": 1.3,
+      "max": 2.3
+    },
+    "farnesenes": {
+      "min": 6,
+      "max": 10
+    },
+    "linalool": {
+      "min": 1.3,
+      "max": 2.3
+    },
+    "thiols": null,
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

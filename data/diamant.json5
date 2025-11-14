@@ -1,0 +1,65 @@
+{
+  "id": "diamant",
+  "name": "Diamant",
+  "altName": null,
+  "country": "DE",
+  "descriptors": [
+    "spicy"
+  ],
+  "origin": "Released in 2019 originating from Spalter and a male derived at the Hüll breeding institute",
+  "lineage": [
+    "spalter"
+  ],
+  "aroma": {
+    "citrusy": 2,
+    "fruity": 0,
+    "floral": 2,
+    "herbal": 1,
+    "spicy": 3,
+    "resinous": 0,
+    "sugarlike": 1,
+    "misc": 0
+  },
+  "aromaDescription": [],
+  "agronomic": {
+    "yield": {
+      "min": 1900,
+      "max": 1950
+    },
+    "maturity": "mid early to late",
+    "wiltDisease": null,
+    "downyMildew": null,
+    "powderyMildew": null,
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 7.0,
+      "max": 7.5
+    },
+    "betas": null,
+    "cohumulones": {
+      "min": 18,
+      "max": 20
+    },
+    "polyphenols": null,
+    "xanthohumols": null,
+    "oils": {
+      "min": 1.5,
+      "max": 1.7
+    },
+    "farnesenes": {
+      "min": 20.0,
+      "max": 21.0
+    },
+    "linalool": {
+      "min": 0.9,
+      "max": 1.0
+    },
+    "thiols": null,
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

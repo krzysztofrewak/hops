@@ -1,0 +1,71 @@
+{
+  "id": "columbus_tomahawk",
+  "name": "Columbus",
+  "altName": "Tomahawk",
+  "country": "US",
+  "descriptors": [
+    "spicy",
+    "herbal"
+  ],
+  "origin": "Tomahawk is a bittering hop of recent origin.",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 1,
+    "fruity": 0,
+    "floral": 0,
+    "herbal": 3,
+    "spicy": 4,
+    "resinous": 0,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "black pepper",
+    "onion",
+    "light citrus"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 2900,
+      "max": 3000
+    },
+    "maturity": "late",
+    "wiltDisease": null,
+    "downyMildew": null,
+    "powderyMildew": "susceptible",
+    "aphid": "susceptible"
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 15.0,
+      "max": 17.0
+    },
+    "betas": {
+      "min": 4.5,
+      "max": 5.0
+    },
+    "cohumulones": {
+      "min": 30,
+      "max": 35
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.7,
+      "max": 0.8
+    },
+    "oils": {
+      "min": 2.5,
+      "max": 3.5
+    },
+    "farnesenes": null,
+    "linalool": {
+      "min": 0.4,
+      "max": 0.6
+    },
+    "thiols": "medium",
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}
