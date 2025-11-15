@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HopVariety",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "country",
+    "descriptors",
+    "aroma",
+    "ingredients"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "altName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "country": {
+      "type": "string",
+      "enum": ["US", "DE", "UK", "SI", "CZ", "NZ", "FR", "AU", "PL"]
+    },
+    "descriptors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "origin": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lineage": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aroma": {
+      "type": "object",
+      "properties": {
+        "citrusy": {
+          "type": "number"
+        },
+        "fruity": {
+          "type": "number"
+        },
+        "floral": {
+          "type": "number"
+        },
+        "herbal": {
+          "type": "number"
+        },
+        "spicy": {
+          "type": "number"
+        },
+        "resinous": {
+          "type": "number"
+        },
+        "sugarlike": {
+          "type": "number"
+        },
+        "misc": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "aromaDescription": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "styleGuide": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "agronomic": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "yield": {
+          "$ref": "#/$defs/rangeOrNull"
+        },
+        "maturity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "early",
+            "early to mid early",
+            "mid early",
+            "mid early to late",
+            "late",
+            "very late",
+            null
+          ]
+        },
+        "wiltDisease": {
+          "$ref": "#/$defs/resistance"
+        },
+        "downyMildew": {
+          "$ref": "#/$defs/resistance"
+        },
+        "powderyMildew": {
+          "$ref": "#/$defs/resistance"
+        },
+        "aphid": {
+          "$ref": "#/$defs/resistance"
+        }
+      },
+      "additionalProperties": false
+    },
+    "ingredients": {
+      "type": "object",
+      "required": [
+        "alphas",
+        "betas",
+        "cohumulones",
+        "oils",
+        "alternatives"
+      ],
+      "properties": {
+        "alphas": {
+          "$ref": "#/$defs/range"
+        },
+        "betas": {
+          "$ref": "#/$defs/rangeOrNull"
+        },
+        "cohumulones": {
+          "$ref": "#/$defs/range"
+        },
+        "polyphenols": {
+          "$ref": "#/$defs/rangeOrNull"
+        },
+        "xanthohumols": {
+          "$ref": "#/$defs/rangeOrNull"
+        },
+        "oils": {
+          "$ref": "#/$defs/rangeOrNull"
+        },
+        "farnesenes": {
+          "$ref": "#/$defs/rangeOrNull"
+        },
+        "linalool": {
+          "$ref": "#/$defs/rangeOrNull"
+        },
+        "thiols": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            null
+          ]
+        },
+        "alternatives": {
+          "type": "object",
+          "properties": {
+            "brewhouse": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "dryhopping": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "range": {
+      "type": "object",
+      "required": [
+        "min",
+        "max"
+      ],
+      "properties": {
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "rangeOrNull": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "resistance": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "tolerant",
+        "resistant",
+        "susceptible",
+        null
+      ]
+    }
+  }
+}

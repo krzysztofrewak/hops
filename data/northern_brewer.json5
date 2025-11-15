@@ -1,82 +1,85 @@
 {
-  "id": "northern-brewer",
-  "name": "Northern Brewer",
-  "altName": null,
-  "country": "DE",
-  "descriptors": [
-    "herbal"
+  id: "northern-brewer",
+  name: "Northern Brewer",
+  altName: null,
+  country: "DE",
+  descriptors: [
+    "herbal",
   ],
-  "origin": "A German cross between a Canterbury Golding and 'OB21' - a male seedling of Brewers Gold.",
-  "lineage": [
+  origin: "A German cross between a Canterbury Golding and 'OB21' - a male seedling of Brewers Gold.",
+  lineage: [
     "canterbury golding",
-    "ob21"
+    "ob21",
   ],
-  "aroma": {
-    "citrusy": 2,
-    "fruity": 2,
-    "floral": 2,
-    "herbal": 3,
-    "spicy": 1,
-    "resinous": 2,
-    "sugarlike": 2,
-    "misc": 0
+  aroma: {
+    citrusy: 2,
+    fruity: 2,
+    floral: 2,
+    herbal: 3,
+    spicy: 1,
+    resinous: 2,
+    sugarlike: 2,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "grassy",
     "spicy",
     "lime",
     "pine",
-    "mint"
+    "mint",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1400,
-      "max": 1650
+  agronomic: {
+    yield: {
+      min: 1400,
+      max: 1650,
     },
-    "maturity": "early to mid early",
-    "wiltDisease": "resistant",
-    "downyMildew": "susceptible",
-    "powderyMildew": "susceptible",
-    "aphid": "susceptible"
+    maturity: "early to mid early",
+    wiltDisease: "resistant",
+    downyMildew: "susceptible",
+    powderyMildew: "susceptible",
+    aphid: "susceptible",
   },
-  "ingredients": {
-    "alphas": {
-      "min": 6.0,
-      "max": 10.0
+  ingredients: {
+    alphas: {
+      min: 6.0,
+      max: 10.0,
     },
-    "betas": {
-      "min": 3.0,
-      "max": 5.0
+    betas: {
+      min: 3.0,
+      max: 5.0,
     },
-    "cohumulones": {
-      "min": 27,
-      "max": 32
+    cohumulones: {
+      min: 27,
+      max: 32,
     },
-    "polyphenols": 3.9,
-    "xanthohumols": {
-      "min": 0.5,
-      "max": 0.7
+    polyphenols: {
+      min: 3.9,
+      max: 3.9,
     },
-    "oils": {
-      "min": 1.0,
-      "max": 1.6
+    xanthohumols: {
+      min: 0.5,
+      max: 0.7,
     },
-    "farnesenes": {
-      "min": 0.0,
-      "max": 1.0
+    oils: {
+      min: 1.0,
+      max: 1.6,
     },
-    "linalool": {
-      "min": 0.3,
-      "max": 0.8
+    farnesenes: {
+      min: 0.0,
+      max: 1.0,
     },
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [
+    linalool: {
+      min: 0.3,
+      max: 0.8,
+    },
+    thiols: "low",
+    alternatives: {
+      brewhouse: [
         "perle",
         "aurora",
-        "akoya"
+        "akoya",
       ],
-      "dryhopping": []
-    }
-  }
+      dryhopping: [],
+    },
+  },
 }

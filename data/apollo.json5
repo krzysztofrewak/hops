@@ -1,74 +1,74 @@
 {
-  "id": "apollo",
-  "name": "Apollo",
-  "altName": null,
-  "country": "US",
-  "descriptors": [
+  id: "apollo",
+  name: "Apollo",
+  altName: null,
+  country: "US",
+  descriptors: [
     "spicy",
-    "resinous"
+    "resinous",
   ],
-  "origin": "Hopsteiner breeding program",
-  "lineage": [],
-  "aroma": {
-    "citrusy": 2,
-    "fruity": 1,
-    "floral": 1,
-    "herbal": 1,
-    "spicy": 4,
-    "resinous": 3,
-    "sugarlike": 0,
-    "misc": 0
+  origin: "Hopsteiner breeding program",
+  lineage: [],
+  aroma: {
+    citrusy: 2,
+    fruity: 1,
+    floral: 1,
+    herbal: 1,
+    spicy: 4,
+    resinous: 3,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "Lime",
     "grapefruit",
-    "strong pine and spicy notes"
+    "strong pine and spicy notes",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 2900,
-      "max": 3000
+  agronomic: {
+    yield: {
+      min: 2900,
+      max: 3000,
     },
-    "maturity": "very late",
-    "wiltDisease": null,
-    "downyMildew": "resistant",
-    "powderyMildew": "susceptible",
-    "aphid": null
+    maturity: "very late",
+    wiltDisease: null,
+    downyMildew: "resistant",
+    powderyMildew: "susceptible",
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 15.0,
-      "max": 20.0
+  ingredients: {
+    alphas: {
+      min: 15.0,
+      max: 20.0,
     },
-    "betas": {
-      "min": 5.5,
-      "max": 8.0
+    betas: {
+      min: 5.5,
+      max: 8.0,
     },
-    "cohumulones": {
-      "min": 24,
-      "max": 28
+    cohumulones: {
+      min: 24,
+      max: 28,
     },
-    "polyphenols": null,
-    "xanthohumols": {
-      "min": 0.6,
-      "max": 0.9
+    polyphenols: null,
+    xanthohumols: {
+      min: 0.6,
+      max: 0.9,
     },
-    "oils": {
-      "min": 0.8,
-      "max": 2.5
+    oils: {
+      min: 0.8,
+      max: 2.5,
     },
-    "farnesenes": {
-      "min": 0.0,
-      "max": 0.1
+    farnesenes: {
+      min: 0.0,
+      max: 0.1,
     },
-    "linalool": {
-      "min": 0.2,
-      "max": 0.4
+    linalool: {
+      min: 0.2,
+      max: 0.4,
     },
-    "thiols": "medium",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    thiols: "medium",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

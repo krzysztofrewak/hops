@@ -1,83 +1,86 @@
 {
-  "id": "hersbrucker-spat",
-  "name": "Hersbrucker Spät",
-  "altName": null,
-  "country": "DE",
-  "descriptors": [
-    "herbal"
+  id: "hersbrucker-spat",
+  name: "Hersbrucker Spät",
+  altName: null,
+  country: "DE",
+  descriptors: [
+    "herbal",
   ],
-  "origin": "A landrace variety originating Germany.",
-  "lineage": [],
-  "aroma": {
-    "citrusy": 2,
-    "fruity": 2,
-    "floral": 0,
-    "herbal": 4,
-    "spicy": 2,
-    "resinous": 1,
-    "sugarlike": 0,
-    "misc": 0
+  origin: "A landrace variety originating Germany.",
+  lineage: [],
+  aroma: {
+    citrusy: 2,
+    fruity: 2,
+    floral: 0,
+    herbal: 4,
+    spicy: 2,
+    resinous: 1,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "spicy",
     "hay",
     "orange",
-    "tobacco"
+    "tobacco",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1450,
-      "max": 1750
+  agronomic: {
+    yield: {
+      min: 1450,
+      max: 1750,
     },
-    "maturity": "late",
-    "wiltDisease": "tolerant",
-    "downyMildew": "susceptible",
-    "powderyMildew": "susceptible",
-    "aphid": "tolerant"
+    maturity: "late",
+    wiltDisease: "tolerant",
+    downyMildew: "susceptible",
+    powderyMildew: "susceptible",
+    aphid: "tolerant",
   },
-  "ingredients": {
-    "alphas": {
-      "min": 1.5,
-      "max": 4.0
+  ingredients: {
+    alphas: {
+      min: 1.5,
+      max: 4.0,
     },
-    "betas": {
-      "min": 2.5,
-      "max": 6.0
+    betas: {
+      min: 2.5,
+      max: 6.0,
     },
-    "cohumulones": {
-      "min": 17,
-      "max": 25
+    cohumulones: {
+      min: 17,
+      max: 25,
     },
-    "polyphenols": 4.4,
-    "xanthohumols": {
-      "min": 0.2,
-      "max": 0.3
+    polyphenols: {
+      min: 4.4,
+      max: 4.4,
     },
-    "oils": {
-      "min": 0.5,
-      "max": 1.0
+    xanthohumols: {
+      min: 0.2,
+      max: 0.3,
     },
-    "farnesenes": {
-      "min": 0,
-      "max": 1.0
+    oils: {
+      min: 0.5,
+      max: 1.0,
     },
-    "linalool": {
-      "min": 0.5,
-      "max": 1.0
+    farnesenes: {
+      min: 0,
+      max: 1.0,
     },
-    "thiols": null,
-    "alternatives": {
-      "brewhouse": [
+    linalool: {
+      min: 0.5,
+      max: 1.0,
+    },
+    thiols: null,
+    alternatives: {
+      brewhouse: [
         "spalter",
         "tettnanger",
         "strisselspalter",
         "mount-hood",
-        "contessa"
+        "contessa",
       ],
-      "dryhopping": [
+      dryhopping: [
         "mount-hood",
-        "contessa"
-      ]
-    }
-  }
+        "contessa",
+      ],
+    },
+  },
 }

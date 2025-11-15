@@ -1,74 +1,74 @@
 {
-  "id": "sultana",
-  "name": "Sultana",
-  "altName": null,
-  "country": "US",
-  "descriptors": [
+  id: "sultana",
+  name: "Sultana",
+  altName: null,
+  country: "US",
+  descriptors: [
     "citrusy",
-    "fruity"
+    "fruity",
   ],
-  "origin": "Hopsteiner breeding program",
-  "lineage": [],
-  "aroma": {
-    "citrusy": 3,
-    "fruity": 3,
-    "floral": 1,
-    "herbal": 1,
-    "spicy": 1,
-    "resinous": 1,
-    "sugarlike": 2,
-    "misc": 0
+  origin: "Hopsteiner breeding program",
+  lineage: [],
+  aroma: {
+    citrusy: 3,
+    fruity: 3,
+    floral: 1,
+    herbal: 1,
+    spicy: 1,
+    resinous: 1,
+    sugarlike: 2,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "pineapple",
     "pine",
-    "citrus"
+    "citrus",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 2800,
-      "max": 3100
+  agronomic: {
+    yield: {
+      min: 2800,
+      max: 3100,
     },
-    "maturity": "late",
-    "wiltDisease": null,
-    "downyMildew": "tolerant",
-    "powderyMildew": "tolerant",
-    "aphid": null
+    maturity: "late",
+    wiltDisease: null,
+    downyMildew: "tolerant",
+    powderyMildew: "tolerant",
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 13.0,
-      "max": 15.0
+  ingredients: {
+    alphas: {
+      min: 13.0,
+      max: 15.0,
     },
-    "betas": {
-      "min": 4.0,
-      "max": 5.0
+    betas: {
+      min: 4.0,
+      max: 5.0,
     },
-    "cohumulones": {
-      "min": 22,
-      "max": 26
+    cohumulones: {
+      min: 22,
+      max: 26,
     },
-    "polyphenols": {
-      "min": 2.5,
-      "max": 3.0
+    polyphenols: {
+      min: 2.5,
+      max: 3.0,
     },
-    "xanthohumols": {
-      "min": 0.5,
-      "max": 0.7
+    xanthohumols: {
+      min: 0.5,
+      max: 0.7,
     },
-    "oils": {
-      "min": 2.5,
-      "max": 4.0
+    oils: {
+      min: 2.5,
+      max: 4.0,
     },
-    "farnesenes": null,
-    "linalool": {
-      "min": 0.6,
-      "max": 1.0
+    farnesenes: null,
+    linalool: {
+      min: 0.6,
+      max: 1.0,
     },
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    thiols: "low",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

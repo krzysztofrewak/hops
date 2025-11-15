@@ -1,75 +1,75 @@
 {
-  "id": "pilgrim",
-  "name": "Pilgrim",
-  "altName": null,
-  "country": "UK",
-  "descriptors": [
+  id: "pilgrim",
+  name: "Pilgrim",
+  altName: null,
+  country: "UK",
+  descriptors: [
     "resinous",
     "citrusy",
-    "spicy"
+    "spicy",
   ],
-  "origin": "A new variety registered by Wye College in 2001.",
-  "lineage": [],
-  "aroma": {
-    "citrusy": 3,
-    "fruity": 2,
-    "floral": 1,
-    "herbal": 2,
-    "spicy": 3,
-    "resinous": 0,
-    "sugarlike": 0,
-    "misc": 0
+  origin: "A new variety registered by Wye College in 2001.",
+  lineage: [],
+  aroma: {
+    citrusy: 3,
+    fruity: 2,
+    floral: 1,
+    herbal: 2,
+    spicy: 3,
+    resinous: 0,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "spicy",
     "citrusy",
-    "pear"
+    "pear",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 2300,
-      "max": 2300
+  agronomic: {
+    yield: {
+      min: 2300,
+      max: 2300,
     },
-    "maturity": "mid early to late",
-    "wiltDisease": "tolerant",
-    "downyMildew": "resistant",
-    "powderyMildew": "resistant",
-    "aphid": null
+    maturity: "mid early to late",
+    wiltDisease: "tolerant",
+    downyMildew: "resistant",
+    powderyMildew: "resistant",
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 9.0,
-      "max": 13.0
+  ingredients: {
+    alphas: {
+      min: 9.0,
+      max: 13.0,
     },
-    "betas": {
-      "min": 4.5,
-      "max": 5.0
+    betas: {
+      min: 4.5,
+      max: 5.0,
     },
-    "cohumulones": {
-      "min": 36,
-      "max": 38
+    cohumulones: {
+      min: 36,
+      max: 38,
     },
-    "polyphenols": null,
-    "xanthohumols": {
-      "min": 0.5,
-      "max": 0.6
+    polyphenols: null,
+    xanthohumols: {
+      min: 0.5,
+      max: 0.6,
     },
-    "oils": {
-      "min": 1.2,
-      "max": 1.8
+    oils: {
+      min: 1.2,
+      max: 1.8,
     },
-    "farnesenes": {
-      "min": 0,
-      "max": 1.0
+    farnesenes: {
+      min: 0,
+      max: 1.0,
     },
-    "linalool": {
-      "min": 0.1,
-      "max": 0.2
+    linalool: {
+      min: 0.1,
+      max: 0.2,
     },
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    thiols: "low",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

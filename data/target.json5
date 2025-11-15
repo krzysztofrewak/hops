@@ -1,74 +1,77 @@
 {
-  "id": "target",
-  "name": "Target",
-  "altName": null,
-  "country": "UK",
-  "descriptors": [
+  id: "target",
+  name: "Target",
+  altName: null,
+  country: "UK",
+  descriptors: [
     "resinous",
     "floral",
     "herbal",
-    "sugarlike"
+    "sugarlike",
   ],
-  "origin": "Released by Wye College in 1972 it is a 'cousin' of Challenger but with powdery mildew resistance.",
-  "lineage": [
-    "challenger"
+  origin: "Released by Wye College in 1972 it is a 'cousin' of Challenger but with powdery mildew resistance.",
+  lineage: [
+    "challenger",
   ],
-  "aroma": {
-    "citrusy": 2,
-    "fruity": 0,
-    "floral": 3,
-    "herbal": 3,
-    "spicy": 2,
-    "resinous": 4,
-    "sugarlike": 3,
-    "misc": 0
+  aroma: {
+    citrusy: 2,
+    fruity: 0,
+    floral: 3,
+    herbal: 3,
+    spicy: 2,
+    resinous: 4,
+    sugarlike: 3,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "tabacco",
-    "elderflower"
+    "elderflower",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1650,
-      "max": 1850
+  agronomic: {
+    yield: {
+      min: 1650,
+      max: 1850,
     },
-    "maturity": "late",
-    "wiltDisease": "resistant",
-    "downyMildew": "susceptible",
-    "powderyMildew": "resistant",
-    "aphid": null
+    maturity: "late",
+    wiltDisease: "resistant",
+    downyMildew: "susceptible",
+    powderyMildew: "resistant",
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 8.0,
-      "max": 13.0
+  ingredients: {
+    alphas: {
+      min: 8.0,
+      max: 13.0,
     },
-    "betas": {
-      "min": 4.5,
-      "max": 5.5
+    betas: {
+      min: 4.5,
+      max: 5.5,
     },
-    "cohumulones": {
-      "min": 35,
-      "max": 37
+    cohumulones: {
+      min: 35,
+      max: 37,
     },
-    "polyphenols": 4.8,
-    "xanthohumols": {
-      "min": 0.5,
-      "max": 0.6
+    polyphenols: {
+      min: 4.8,
+      max: 4.8,
     },
-    "oils": {
-      "min": 1.2,
-      "max": 1.4
+    xanthohumols: {
+      min: 0.5,
+      max: 0.6,
     },
-    "farnesenes": {
-      "min": 0,
-      "max": 1.0
+    oils: {
+      min: 1.2,
+      max: 1.4,
     },
-    "linalool": null,
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    farnesenes: {
+      min: 0,
+      max: 1.0,
+    },
+    linalool: null,
+    thiols: "low",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

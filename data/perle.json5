@@ -1,84 +1,87 @@
 {
-  "id": "perle",
-  "name": "Perle",
-  "altName": null,
-  "country": "DE",
-  "descriptors": [
+  id: "perle",
+  name: "Perle",
+  altName: null,
+  country: "DE",
+  descriptors: [
     "herbal",
-    "spicy"
+    "spicy",
   ],
-  "origin": "A German variety bred in Huell resulting from a cross between Northern Brewer and 63/5/27M.",
-  "lineage": [
+  origin: "A German variety bred in Huell resulting from a cross between Northern Brewer and 63/5/27M.",
+  lineage: [
     "northern brewer",
-    "63/5/27m"
+    "63/5/27m",
   ],
-  "aroma": {
-    "citrusy": 2,
-    "fruity": 0,
-    "floral": 2,
-    "herbal": 3,
-    "spicy": 3,
-    "resinous": 1,
-    "sugarlike": 0,
-    "misc": 0
+  aroma: {
+    citrusy: 2,
+    fruity: 0,
+    floral: 2,
+    herbal: 3,
+    spicy: 3,
+    resinous: 1,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "tea",
     "hoppy",
     "green fruits",
-    "pepper"
+    "pepper",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1800,
-      "max": 2000
+  agronomic: {
+    yield: {
+      min: 1800,
+      max: 2000,
     },
-    "maturity": "mid early to late",
-    "wiltDisease": null,
-    "downyMildew": "tolerant",
-    "powderyMildew": "susceptible",
-    "aphid": null
+    maturity: "mid early to late",
+    wiltDisease: null,
+    downyMildew: "tolerant",
+    powderyMildew: "susceptible",
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 4.0,
-      "max": 9.0
+  ingredients: {
+    alphas: {
+      min: 4.0,
+      max: 9.0,
     },
-    "betas": {
-      "min": 2.5,
-      "max": 4.5
+    betas: {
+      min: 2.5,
+      max: 4.5,
     },
-    "cohumulones": {
-      "min": 29,
-      "max": 35
+    cohumulones: {
+      min: 29,
+      max: 35,
     },
-    "polyphenols": 4.1,
-    "xanthohumols": {
-      "min": 0.4,
-      "max": 0.6
+    polyphenols: {
+      min: 4.1,
+      max: 4.1,
     },
-    "oils": {
-      "min": 0.5,
-      "max": 1.3
+    xanthohumols: {
+      min: 0.4,
+      max: 0.6,
     },
-    "farnesenes": {
-      "min": 0,
-      "max": 1.0
+    oils: {
+      min: 0.5,
+      max: 1.3,
     },
-    "linalool": {
-      "min": 0.2,
-      "max": 0.6
+    farnesenes: {
+      min: 0,
+      max: 1.0,
     },
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [
+    linalool: {
+      min: 0.2,
+      max: 0.6,
+    },
+    thiols: "low",
+    alternatives: {
+      brewhouse: [
         "akoya",
         "hallertauer-tradition",
         "aurora",
         "northern-brewer",
-        "mandarina-bavaria"
+        "mandarina-bavaria",
       ],
-      "dryhopping": []
-    }
-  }
+      dryhopping: [],
+    },
+  },
 }

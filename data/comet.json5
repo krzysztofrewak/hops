@@ -1,78 +1,78 @@
 {
-  "id": "comet",
-  "name": "Comet",
-  "altName": null,
-  "country": "US",
-  "descriptors": [
+  id: "comet",
+  name: "Comet",
+  altName: null,
+  country: "US",
+  descriptors: [
     "citrusy",
-    "fruity"
+    "fruity",
   ],
-  "origin": "Comet was originally released as a high alpha by the USDA in 1974. Its parentage is English Sunshine and a native American hop giving it a “wild American” characteristic.",
-  "lineage": [
+  origin: "Comet was originally released as a high alpha by the USDA in 1974. Its parentage is English Sunshine and a native American hop giving it a “wild American” characteristic.",
+  lineage: [
     "english-sunshine",
-    "native-american-hop"
+    "native-american-hop",
   ],
-  "aroma": {
-    "citrusy": 3,
-    "fruity": 3,
-    "floral": 1,
-    "herbal": 2,
-    "spicy": 1,
-    "resinous": 1,
-    "sugarlike": 0,
-    "misc": 0
+  aroma: {
+    citrusy: 3,
+    fruity: 3,
+    floral: 1,
+    herbal: 2,
+    spicy: 1,
+    resinous: 1,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "grapefruit",
     "grass",
     "rose",
-    "fruity"
+    "fruity",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1900,
-      "max": 2250
+  agronomic: {
+    yield: {
+      min: 1900,
+      max: 2250,
     },
-    "maturity": "late",
-    "wiltDisease": null,
-    "downyMildew": null,
-    "powderyMildew": null,
-    "aphid": null
+    maturity: "late",
+    wiltDisease: null,
+    downyMildew: null,
+    powderyMildew: null,
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 8.0,
-      "max": 10.5
+  ingredients: {
+    alphas: {
+      min: 8.0,
+      max: 10.5,
     },
-    "betas": {
-      "min": 3.0,
-      "max": 6.0
+    betas: {
+      min: 3.0,
+      max: 6.0,
     },
-    "cohumulones": {
-      "min": 34,
-      "max": 37
+    cohumulones: {
+      min: 34,
+      max: 37,
     },
-    "polyphenols": null,
-    "xanthohumols": {
-      "min": 0.9,
-      "max": 1.0
+    polyphenols: null,
+    xanthohumols: {
+      min: 0.9,
+      max: 1.0,
     },
-    "oils": {
-      "min": 1.0,
-      "max": 2.0
+    oils: {
+      min: 1.0,
+      max: 2.0,
     },
-    "farnesenes": {
-      "min": 1.2,
-      "max": 1.5
+    farnesenes: {
+      min: 1.2,
+      max: 1.5,
     },
-    "linalool": {
-      "min": 0.6,
-      "max": 1.0
+    linalool: {
+      min: 0.6,
+      max: 1.0,
     },
-    "thiols": "high",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    thiols: "high",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

@@ -1,72 +1,75 @@
 {
-  "id": "marynka",
-  "name": "Marynka",
-  "altName": null,
-  "country": "PL",
-  "descriptors": [
+  id: "marynka",
+  name: "Marynka",
+  altName: null,
+  country: "PL",
+  descriptors: [
     "spicy",
     "floral",
-    "resinous"
+    "resinous",
   ],
-  "origin": "Polish breeding",
-  "lineage": [],
-  "aroma": {
-    "citrusy": 2,
-    "fruity": 0,
-    "floral": 3,
-    "herbal": 2,
-    "spicy": 4,
-    "resinous": 3,
-    "sugarlike": 1,
-    "misc": 0
+  origin: "Polish breeding",
+  lineage: [],
+  aroma: {
+    citrusy: 2,
+    fruity: 0,
+    floral: 3,
+    herbal: 2,
+    spicy: 4,
+    resinous: 3,
+    sugarlike: 1,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "aniseed",
     "grapefruit",
-    "lemon"
+    "lemon",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 2200,
-      "max": 2500
+  agronomic: {
+    yield: {
+      min: 2200,
+      max: 2500,
     },
-    "maturity": "early to mid early",
-    "wiltDisease": null,
-    "downyMildew": null,
-    "powderyMildew": null,
-    "aphid": null
+    maturity: "early to mid early",
+    wiltDisease: null,
+    downyMildew: null,
+    powderyMildew: null,
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 9.0,
-      "max": 12.0
+  ingredients: {
+    alphas: {
+      min: 9.0,
+      max: 12.0,
     },
-    "betas": {
-      "min": 10.0,
-      "max": 13.0
+    betas: {
+      min: 10.0,
+      max: 13.0,
     },
-    "cohumulones": {
-      "min": 26,
-      "max": 33
+    cohumulones: {
+      min: 26,
+      max: 33,
     },
-    "polyphenols": 4.7,
-    "xanthohumols": null,
-    "oils": {
-      "min": 1.6,
-      "max": 2.2
+    polyphenols: {
+      min: 4.7,
+      max: 4.7,
     },
-    "farnesenes": {
-      "min": 1.5,
-      "max": 2.6
+    xanthohumols: null,
+    oils: {
+      min: 1.6,
+      max: 2.2,
     },
-    "linalool": {
-      "min": 0.1,
-      "max": 0.5
+    farnesenes: {
+      min: 1.5,
+      max: 2.6,
     },
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    linalool: {
+      min: 0.1,
+      max: 0.5,
+    },
+    thiols: "low",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

@@ -1,75 +1,75 @@
 {
-  "id": "motueka",
-  "name": "Motueka",
-  "altName": null,
-  "country": "NZ",
-  "descriptors": [
+  id: "motueka",
+  name: "Motueka",
+  altName: null,
+  country: "NZ",
+  descriptors: [
     "citrusy",
-    "fruity"
+    "fruity",
   ],
-  "origin": "Released in 1998 from Hort Research, bred from a cross between Saaz and a NZ breeding selection. Initially called Belgian Saaz, now abbreviated to 'B' Saaz.",
-  "lineage": [
+  origin: "Released in 1998 from Hort Research, bred from a cross between Saaz and a NZ breeding selection. Initially called Belgian Saaz, now abbreviated to 'B' Saaz.",
+  lineage: [
     "saaz",
-    "nz breeding selection"
+    "nz breeding selection",
   ],
-  "aroma": {
-    "citrusy": 3,
-    "fruity": 3,
-    "floral": 2,
-    "herbal": 2,
-    "spicy": 1,
-    "resinous": 1,
-    "sugarlike": 0,
-    "misc": 2
+  aroma: {
+    citrusy: 3,
+    fruity: 3,
+    floral: 2,
+    herbal: 2,
+    spicy: 1,
+    resinous: 1,
+    sugarlike: 0,
+    misc: 2,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "fresh lime",
     "lemon zest",
     "mojito",
-    "citrus"
+    "citrus",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1900,
-      "max": 2100
+  agronomic: {
+    yield: {
+      min: 1900,
+      max: 2100,
     },
-    "maturity": null,
-    "wiltDisease": null,
-    "downyMildew": null,
-    "powderyMildew": null,
-    "aphid": null
+    maturity: null,
+    wiltDisease: null,
+    downyMildew: null,
+    powderyMildew: null,
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 6.5,
-      "max": 8.5
+  ingredients: {
+    alphas: {
+      min: 6.5,
+      max: 8.5,
     },
-    "betas": {
-      "min": 5.5,
-      "max": 7.0
+    betas: {
+      min: 5.5,
+      max: 7.0,
     },
-    "cohumulones": {
-      "min": 27,
-      "max": 30
+    cohumulones: {
+      min: 27,
+      max: 30,
     },
-    "polyphenols": null,
-    "xanthohumols": null,
-    "oils": {
-      "min": 1.0,
-      "max": 1.8
+    polyphenols: null,
+    xanthohumols: null,
+    oils: {
+      min: 1.0,
+      max: 1.8,
     },
-    "farnesenes": {
-      "min": 12.5,
-      "max": 13.2
+    farnesenes: {
+      min: 12.5,
+      max: 13.2,
     },
-    "linalool": {
-      "min": 0.5,
-      "max": 1.0
+    linalool: {
+      min: 0.5,
+      max: 1.0,
     },
-    "thiols": "medium",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    thiols: "medium",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

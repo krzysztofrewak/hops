@@ -1,79 +1,79 @@
 {
-  "id": "bobek",
-  "name": "Bobek",
-  "altName": null,
-  "country": "SI",
-  "descriptors": [
+  id: "bobek",
+  name: "Bobek",
+  altName: null,
+  country: "SI",
+  descriptors: [
     "floral",
-    "spicy"
+    "spicy",
   ],
-  "origin": "A cross between Northern Brewer and a wild hop.",
-  "lineage": [
-    "northern-brewer"
+  origin: "A cross between Northern Brewer and a wild hop.",
+  lineage: [
+    "northern-brewer",
   ],
-  "aroma": {
-    "citrusy": 2,
-    "fruity": 1,
-    "floral": 4,
-    "herbal": 2,
-    "spicy": 3,
-    "resinous": 1,
-    "sugarlike": 0,
-    "misc": 0
+  aroma: {
+    citrusy: 2,
+    fruity: 1,
+    floral: 4,
+    herbal: 2,
+    spicy: 3,
+    resinous: 1,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "pine",
-    "lime"
+    "lime",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1600,
-      "max": 2400
+  agronomic: {
+    yield: {
+      min: 1600,
+      max: 2400,
     },
-    "maturity": "mid early to late",
-    "wiltDisease": null,
-    "downyMildew": "tolerant",
-    "powderyMildew": "tolerant",
-    "aphid": null
+    maturity: "mid early to late",
+    wiltDisease: null,
+    downyMildew: "tolerant",
+    powderyMildew: "tolerant",
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 3.0,
-      "max": 7.0
+  ingredients: {
+    alphas: {
+      min: 3.0,
+      max: 7.0,
     },
-    "betas": {
-      "min": 4.0,
-      "max": 7.0
+    betas: {
+      min: 4.0,
+      max: 7.0,
     },
-    "cohumulones": {
-      "min": 25,
-      "max": 35
+    cohumulones: {
+      min: 25,
+      max: 35,
     },
-    "polyphenols": null,
-    "xanthohumols": {
-      "min": 0.4,
-      "max": 0.4
+    polyphenols: null,
+    xanthohumols: {
+      min: 0.4,
+      max: 0.4,
     },
-    "oils": {
-      "min": 0.7,
-      "max": 1.0
+    oils: {
+      min: 0.7,
+      max: 1.0,
     },
-    "farnesenes": {
-      "min": 4.0,
-      "max": 8.0
+    farnesenes: {
+      min: 4.0,
+      max: 8.0,
     },
-    "linalool": {
-      "min": 1.0,
-      "max": 2.0
+    linalool: {
+      min: 1.0,
+      max: 2.0,
     },
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [
+    thiols: "low",
+    alternatives: {
+      brewhouse: [
         "fuggle",
         "willamette",
-        "styrian-golding-celeia"
+        "styrian-golding-celeia",
       ],
-      "dryhopping": []
-    }
-  }
+      dryhopping: [],
+    },
+  },
 }

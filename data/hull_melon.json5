@@ -1,78 +1,81 @@
 {
-  "id": "hull-melon",
-  "name": "Hüll Melon",
-  "altName": null,
-  "country": "DE",
-  "descriptors": [
+  id: "hull-melon",
+  name: "Hüll Melon",
+  altName: null,
+  country: "DE",
+  descriptors: [
     "fruity",
     "citrusy",
-    "sugarlike"
+    "sugarlike",
   ],
-  "origin": "Cascade x Huell male",
-  "lineage": [
+  origin: "Cascade x Huell male",
+  lineage: [
     "cascade",
-    "huell male"
+    "huell male",
   ],
-  "aroma": {
-    "citrusy": 3,
-    "fruity": 5,
-    "floral": 1,
-    "herbal": 2,
-    "spicy": 2,
-    "resinous": 1,
-    "sugarlike": 3,
-    "misc": 0
+  aroma: {
+    citrusy: 3,
+    fruity: 5,
+    floral: 1,
+    herbal: 2,
+    spicy: 2,
+    resinous: 1,
+    sugarlike: 3,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "melon",
     "tropical fruit",
     "orange",
-    "vanilla"
+    "vanilla",
   ],
-  "agronomic": {
-    "yield": null,
-    "maturity": "late",
-    "wiltDisease": "tolerant",
-    "downyMildew": "resistant",
-    "powderyMildew": "resistant",
-    "aphid": "tolerant"
+  agronomic: {
+    yield: null,
+    maturity: "late",
+    wiltDisease: "tolerant",
+    downyMildew: "resistant",
+    powderyMildew: "resistant",
+    aphid: "tolerant",
   },
-  "ingredients": {
-    "alphas": {
-      "min": 6.5,
-      "max": 7.5
+  ingredients: {
+    alphas: {
+      min: 6.5,
+      max: 7.5,
     },
-    "betas": {
-      "min": 6.0,
-      "max": 9.0
+    betas: {
+      min: 6.0,
+      max: 9.0,
     },
-    "cohumulones": {
-      "min": 25,
-      "max": 30
+    cohumulones: {
+      min: 25,
+      max: 30,
     },
-    "polyphenols": 3.1,
-    "xanthohumols": {
-      "min": 0.2,
-      "max": 0.7
+    polyphenols: {
+      min: 3.1,
+      max: 3.1,
     },
-    "oils": {
-      "min": 0.5,
-      "max": 0.8
+    xanthohumols: {
+      min: 0.2,
+      max: 0.7,
     },
-    "farnesenes": {
-      "min": 0,
-      "max": 19.8
+    oils: {
+      min: 0.5,
+      max: 0.8,
     },
-    "linalool": {
-      "min": 0.4,
-      "max": 0.7
+    farnesenes: {
+      min: 0,
+      max: 19.8,
     },
-    "thiols": "medium",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": [
-        "calypso"
-      ]
-    }
-  }
+    linalool: {
+      min: 0.4,
+      max: 0.7,
+    },
+    thiols: "medium",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [
+        "calypso",
+      ],
+    },
+  },
 }

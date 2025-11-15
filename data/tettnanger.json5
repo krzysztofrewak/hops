@@ -1,84 +1,87 @@
 {
-  "id": "tettnanger",
-  "name": "Tettnanger",
-  "altName": null,
-  "country": "DE",
-  "descriptors": [
+  id: "tettnanger",
+  name: "Tettnanger",
+  altName: null,
+  country: "DE",
+  descriptors: [
     "herbal",
-    "spicy"
+    "spicy",
   ],
-  "origin": "An landrace variety bred in Germany.",
-  "lineage": [],
-  "aroma": {
-    "citrusy": 1,
-    "fruity": 1,
-    "floral": 1,
-    "herbal": 4,
-    "spicy": 3,
-    "resinous": 1,
-    "sugarlike": 1,
-    "misc": 0
+  origin: "An landrace variety bred in Germany.",
+  lineage: [],
+  aroma: {
+    citrusy: 1,
+    fruity: 1,
+    floral: 1,
+    herbal: 4,
+    spicy: 3,
+    resinous: 1,
+    sugarlike: 1,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "pepper",
-    "black tea"
+    "black tea",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1150,
-      "max": 1400
+  agronomic: {
+    yield: {
+      min: 1150,
+      max: 1400,
     },
-    "maturity": "early to mid early",
-    "wiltDisease": "resistant",
-    "downyMildew": "susceptible",
-    "powderyMildew": "resistant",
-    "aphid": "susceptible"
+    maturity: "early to mid early",
+    wiltDisease: "resistant",
+    downyMildew: "susceptible",
+    powderyMildew: "resistant",
+    aphid: "susceptible",
   },
-  "ingredients": {
-    "alphas": {
-      "min": 2.5,
-      "max": 5.5
+  ingredients: {
+    alphas: {
+      min: 2.5,
+      max: 5.5,
     },
-    "betas": {
-      "min": 3.0,
-      "max": 5.0
+    betas: {
+      min: 3.0,
+      max: 5.0,
     },
-    "cohumulones": {
-      "min": 22,
-      "max": 28
+    cohumulones: {
+      min: 22,
+      max: 28,
     },
-    "polyphenols": 5.2,
-    "xanthohumols": {
-      "min": 0.3,
-      "max": 0.4
+    polyphenols: {
+      min: 5.2,
+      max: 5.2,
     },
-    "oils": {
-      "min": 0.4,
-      "max": 0.9
+    xanthohumols: {
+      min: 0.3,
+      max: 0.4,
     },
-    "farnesenes": {
-      "min": 14.0,
-      "max": 24.0
+    oils: {
+      min: 0.4,
+      max: 0.9,
     },
-    "linalool": {
-      "min": 0.4,
-      "max": 0.9
+    farnesenes: {
+      min: 14.0,
+      max: 24.0,
     },
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [
+    linalool: {
+      min: 0.4,
+      max: 0.9,
+    },
+    thiols: "low",
+    alternatives: {
+      brewhouse: [
         "spalter",
         "saazer",
         "lubelski-(lublin)",
         "willamette",
-        "hersbrucker-spät"
+        "hersbrucker-spät",
       ],
-      "dryhopping": [
+      dryhopping: [
         "spalter",
         "saazer",
         "lubelski-(lublin)",
-        "willamette"
-      ]
-    }
-  }
+        "willamette",
+      ],
+    },
+  },
 }

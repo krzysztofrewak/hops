@@ -1,68 +1,68 @@
 {
-  "id": "titan",
-  "name": "Titan",
-  "altName": null,
-  "country": "DE",
-  "descriptors": [
+  id: "titan",
+  name: "Titan",
+  altName: null,
+  country: "DE",
+  descriptors: [
     "spicy",
     "fruity",
-    "herbal"
+    "herbal",
   ],
-  "origin": "In 2022, a new high alpha variety was introduced by the Hop Research Center in Hüll. This variety was developed by crossing the high alpha variety Polaris and has the same crop yield as Herkules.",
-  "lineage": [
+  origin: "In 2022, a new high alpha variety was introduced by the Hop Research Center in Hüll. This variety was developed by crossing the high alpha variety Polaris and has the same crop yield as Herkules.",
+  lineage: [
     "polaris",
-    "herkules"
+    "herkules",
   ],
-  "aroma": {
-    "citrusy": 2,
-    "fruity": 3,
-    "floral": 1,
-    "herbal": 3,
-    "spicy": 4,
-    "resinous": 1,
-    "sugarlike": 1,
-    "misc": 0
+  aroma: {
+    citrusy: 2,
+    fruity: 3,
+    floral: 1,
+    herbal: 3,
+    spicy: 4,
+    resinous: 1,
+    sugarlike: 1,
+    misc: 0,
   },
-  "aromaDescription": [],
-  "agronomic": {
-    "yield": {
-      "min": 2500,
-      "max": 3000
+  aromaDescription: [],
+  agronomic: {
+    yield: {
+      min: 2500,
+      max: 3000,
     },
-    "maturity": "mid early to late",
-    "wiltDisease": "tolerant",
-    "downyMildew": "tolerant",
-    "powderyMildew": "resistant",
-    "aphid": null
+    maturity: "mid early to late",
+    wiltDisease: "tolerant",
+    downyMildew: "tolerant",
+    powderyMildew: "resistant",
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 16.0,
-      "max": 20.0
+  ingredients: {
+    alphas: {
+      min: 16.0,
+      max: 20.0,
     },
-    "betas": {
-      "min": 4.5,
-      "max": 5.5
+    betas: {
+      min: 4.5,
+      max: 5.5,
     },
-    "cohumulones": {
-      "min": 20,
-      "max": 24
+    cohumulones: {
+      min: 20,
+      max: 24,
     },
-    "polyphenols": null,
-    "xanthohumols": null,
-    "oils": {
-      "min": 2.5,
-      "max": 3.5
+    polyphenols: null,
+    xanthohumols: null,
+    oils: {
+      min: 2.5,
+      max: 3.5,
     },
-    "farnesenes": null,
-    "linalool": {
-      "min": 0.4,
-      "max": 0.5
+    farnesenes: null,
+    linalool: {
+      min: 0.4,
+      max: 0.5,
     },
-    "thiols": "medium",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    thiols: "medium",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }
