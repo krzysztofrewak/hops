@@ -1,0 +1,78 @@
+{
+  "id": "hallertauer-merkur",
+  "name": "Hallertauer Merkur",
+  "altName": null,
+  "country": "DE",
+  "descriptors": [
+    "spicy",
+    "citrusy",
+    "herbal"
+  ],
+  "origin": "A cross between Hallertauer Magnum and 81/8/13, bred in Huell.",
+  "lineage": [
+    "hallertauer magnum",
+    "81/8/13"
+  ],
+  "aroma": {
+    "citrusy": 3,
+    "fruity": 1,
+    "floral": 1,
+    "herbal": 3,
+    "spicy": 4,
+    "resinous": 2,
+    "sugarlike": 1,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "mint",
+    "pineapple",
+    "spicy notes"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 2000,
+      "max": 2200
+    },
+    "maturity": "late",
+    "wiltDisease": "resistant",
+    "downyMildew": "tolerant",
+    "powderyMildew": "resistant",
+    "aphid": "susceptible"
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 10.0,
+      "max": 14.0
+    },
+    "betas": {
+      "min": 3.5,
+      "max": 7.0
+    },
+    "cohumulones": {
+      "min": 17,
+      "max": 22
+    },
+    "polyphenols": 4.2,
+    "xanthohumols": {
+      "min": 0.2,
+      "max": 0.4
+    },
+    "oils": {
+      "min": 1.4,
+      "max": 2.2
+    },
+    "farnesenes": {
+      "min": 0,
+      "max": 1.0
+    },
+    "linalool": {
+      "min": 0.6,
+      "max": 1.1
+    },
+    "thiols": null,
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

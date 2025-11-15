@@ -1,0 +1,76 @@
+{
+  "id": "solero",
+  "name": "Solero",
+  "altName": null,
+  "country": "DE",
+  "descriptors": [
+    "fruity",
+    "citrusy",
+    "floral",
+    "resinous"
+  ],
+  "origin": "Hopsteiner breeding program",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 3,
+    "fruity": 5,
+    "floral": 3,
+    "herbal": 1,
+    "spicy": 0,
+    "resinous": 3,
+    "sugarlike": 2,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "tropical-fruits",
+    "mango",
+    "passionfruit"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 2800,
+      "max": 3300
+    },
+    "maturity": "late",
+    "wiltDisease": null,
+    "downyMildew": "tolerant",
+    "powderyMildew": "tolerant",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 9.0,
+      "max": 10.0
+    },
+    "betas": {
+      "min": 5.0,
+      "max": 6.0
+    },
+    "cohumulones": {
+      "min": 35,
+      "max": 45
+    },
+    "polyphenols": {
+      "min": 5.0,
+      "max": 6.0
+    },
+    "xanthohumols": {
+      "min": 0.7,
+      "max": 0.8
+    },
+    "oils": {
+      "min": 1.5,
+      "max": 2.0
+    },
+    "farnesenes": null,
+    "linalool": {
+      "min": 0.2,
+      "max": 0.5
+    },
+    "thiols": "high",
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

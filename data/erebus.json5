@@ -1,0 +1,65 @@
+{
+  "id": "erebus",
+  "name": "Erebus",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "fruity",
+    "citrusy",
+    "sugarlike",
+    "misc"
+  ],
+  "origin": "Hopsteiner breeding program",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 3,
+    "fruity": 5,
+    "floral": 2,
+    "herbal": 1,
+    "spicy": 1,
+    "resinous": 0,
+    "sugarlike": 3,
+    "misc": 3
+  },
+  "aromaDescription": [
+    "blueberry",
+    "citrus",
+    "candied fruit",
+    "and floral rose"
+  ],
+  "agronomic": {
+    "yield": null,
+    "maturity": "early",
+    "wiltDisease": null,
+    "downyMildew": "tolerant",
+    "powderyMildew": "resistant",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 8.0,
+      "max": 11.0
+    },
+    "betas": {
+      "min": 3.0,
+      "max": 4.0
+    },
+    "cohumulones": {
+      "min": 24,
+      "max": 28
+    },
+    "polyphenols": null,
+    "xanthohumols": null,
+    "oils": {
+      "min": 2.3,
+      "max": 2.8
+    },
+    "farnesenes": null,
+    "linalool": null,
+    "thiols": null,
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

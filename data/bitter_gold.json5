@@ -1,0 +1,74 @@
+{
+  "id": "bitter_gold",
+  "name": "Bitter Gold",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "fruity"
+  ],
+  "origin": "The lineage goes back to Brewer's Gold, Bullion, Comet and Fuggle and was released in 1999",
+  "lineage": [
+    "brewers-gold",
+    "bullion",
+    "comet",
+    "fuggle"
+  ],
+  "aroma": {
+    "citrusy": 2,
+    "fruity": 4,
+    "floral": 2,
+    "herbal": 1,
+    "spicy": 1,
+    "resinous": 0,
+    "sugarlike": 1,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "pine",
+    "grapefruit",
+    "floral"
+  ],
+  "agronomic": {
+    "yield": null,
+    "maturity": null,
+    "wiltDisease": null,
+    "downyMildew": null,
+    "powderyMildew": null,
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 12.0,
+      "max": 15.0
+    },
+    "betas": {
+      "min": 4.0,
+      "max": 6.0
+    },
+    "cohumulones": {
+      "min": 30,
+      "max": 45
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.8,
+      "max": 0.9
+    },
+    "oils": {
+      "min": 1.0,
+      "max": 2.5
+    },
+    "farnesenes": {
+      "min": 0.1,
+      "max": 0.2
+    },
+    "linalool": {
+      "min": 0.6,
+      "max": 0.8
+    },
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }

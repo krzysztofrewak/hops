@@ -1,0 +1,74 @@
+{
+  "id": "el-dorado",
+  "name": "El Dorado",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "fruity",
+    "citrusy"
+  ],
+  "origin": "The lineage goes back to Brewer's Gold, Bullion, Comet and Fuggle and was released in 1999",
+  "lineage": [
+    "brewers-gold",
+    "bullion",
+    "comet",
+    "fuggle"
+  ],
+  "aroma": {
+    "citrusy": 3,
+    "fruity": 4,
+    "floral": 0,
+    "herbal": 1,
+    "spicy": 0,
+    "resinous": 0,
+    "sugarlike": 1,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "tropical mango",
+    "pear",
+    "stone fruit",
+    "candied lemon"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 2650,
+      "max": 2880
+    },
+    "maturity": null,
+    "wiltDisease": null,
+    "downyMildew": null,
+    "powderyMildew": null,
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 13.0,
+      "max": 17.0
+    },
+    "betas": {
+      "min": 7.0,
+      "max": 8.0
+    },
+    "cohumulones": {
+      "min": 28,
+      "max": 33
+    },
+    "polyphenols": null,
+    "xanthohumols": null,
+    "oils": {
+      "min": 2.5,
+      "max": 3.3
+    },
+    "farnesenes": {
+      "min": 0.1,
+      "max": 0.1
+    },
+    "linalool": null,
+    "thiols": "medium",
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "opal",
+  "name": "Opal",
+  "altName": null,
+  "country": "DE",
+  "descriptors": [
+    "spicy"
+  ],
+  "origin": "New variety bred in Huell",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 0,
+    "fruity": 1,
+    "floral": 1,
+    "herbal": 2,
+    "spicy": 4,
+    "resinous": 2,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "spicy",
+    "pepper",
+    "grass",
+    "aniseed"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1500,
+      "max": 2200
+    },
+    "maturity": "early to mid early",
+    "wiltDisease": "resistant",
+    "downyMildew": "resistant",
+    "powderyMildew": "resistant",
+    "aphid": "tolerant"
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 5.0,
+      "max": 8.0
+    },
+    "betas": {
+      "min": 3.5,
+      "max": 5.5
+    },
+    "cohumulones": {
+      "min": 15,
+      "max": 17
+    },
+    "polyphenols": 3.5,
+    "xanthohumols": {
+      "min": 0.3,
+      "max": 0.5
+    },
+    "oils": {
+      "min": 0.8,
+      "max": 1.3
+    },
+    "farnesenes": {
+      "min": 0,
+      "max": 1.0
+    },
+    "linalool": {
+      "min": 1.0,
+      "max": 1.5
+    },
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [
+        "smaragd"
+      ],
+      "dryhopping": []
+    }
+  }
+}

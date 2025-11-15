@@ -1,0 +1,77 @@
+{
+  "id": "mt-rainier",
+  "name": "MT. Rainier",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "herbal"
+  ],
+  "origin": "Hallertauer Magnum x USDA 19085M - cross made in 1994 in Corvallis OR and released in 2009",
+  "lineage": [
+    "hallertauer magnum",
+    "usda 19085m"
+  ],
+  "aroma": {
+    "citrusy": 1,
+    "fruity": 0,
+    "floral": 0,
+    "herbal": 3,
+    "spicy": 0,
+    "resinous": 0,
+    "sugarlike": 1,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "grass",
+    "cedar",
+    "lemon",
+    "tea"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1800,
+      "max": 2200
+    },
+    "maturity": "early to mid early",
+    "wiltDisease": null,
+    "downyMildew": "susceptible",
+    "powderyMildew": "susceptible",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 5.0,
+      "max": 9.5
+    },
+    "betas": {
+      "min": 5.0,
+      "max": 7.0
+    },
+    "cohumulones": {
+      "min": 20,
+      "max": 25
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.2,
+      "max": 0.3
+    },
+    "oils": {
+      "min": 0.2,
+      "max": 2.2
+    },
+    "farnesenes": {
+      "min": 0,
+      "max": 0.2
+    },
+    "linalool": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "thiols": null,
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

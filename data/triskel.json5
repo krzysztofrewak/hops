@@ -1,0 +1,66 @@
+{
+  "id": "triskel",
+  "name": "Triskel",
+  "altName": null,
+  "country": null,
+  "descriptors": [
+    "fruity",
+    "citrusy",
+    "floral"
+  ],
+  "origin": "Triskel is a cross developped in 2006 between the French Strisselspalt variety and the male plant of the English Yeoman variety.",
+  "lineage": [
+    "strisselspalt",
+    "yeoman"
+  ],
+  "aroma": {
+    "citrusy": 3,
+    "fruity": 3,
+    "floral": 3,
+    "herbal": 0,
+    "spicy": 1,
+    "resinous": 0,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "fruity",
+    "citrusy",
+    "floral"
+  ],
+  "agronomic": {
+    "yield": null,
+    "maturity": null,
+    "wiltDisease": null,
+    "downyMildew": null,
+    "powderyMildew": null,
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 2.5,
+      "max": 5.5
+    },
+    "betas": {
+      "min": 4.0,
+      "max": 5.0
+    },
+    "cohumulones": {
+      "min": 20,
+      "max": 23
+    },
+    "polyphenols": null,
+    "xanthohumols": null,
+    "oils": {
+      "min": 1.5,
+      "max": 2.0
+    },
+    "farnesenes": null,
+    "linalool": null,
+    "thiols": null,
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

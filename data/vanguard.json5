@@ -1,0 +1,76 @@
+{
+  "id": "vanguard",
+  "name": "Vanguard",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "spicy",
+    "fruity",
+    "herbal"
+  ],
+  "origin": "A cross between a selected, Halltertauer daughter and a USAD selected, German aroma male; a triploid hop, similar to Hallertauer Mittelfrueh.",
+  "lineage": [
+    "hallertauer",
+    "hallertauer-mittelfrueh"
+  ],
+  "aroma": {
+    "citrusy": 2,
+    "fruity": 4,
+    "floral": 0,
+    "herbal": 3,
+    "spicy": 0,
+    "resinous": 0,
+    "sugarlike": 0,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "tropical fruit",
+    "lemon",
+    "grass",
+    "tea"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1500,
+      "max": 1650
+    },
+    "maturity": "early",
+    "wiltDisease": null,
+    "downyMildew": "tolerant",
+    "powderyMildew": "tolerant",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 4.0,
+      "max": 6.0
+    },
+    "betas": {
+      "min": 5.0,
+      "max": 7.5
+    },
+    "cohumulones": {
+      "min": 14,
+      "max": 16
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.4,
+      "max": 0.5
+    },
+    "oils": {
+      "min": 0.8,
+      "max": 1.2
+    },
+    "farnesenes": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "linalool": null,
+    "thiols": "medium",
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

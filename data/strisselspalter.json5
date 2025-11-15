@@ -1,0 +1,80 @@
+{
+  "id": "strisselspalter",
+  "name": "Strisselspalter",
+  "altName": null,
+  "country": "FR",
+  "descriptors": [
+    "citrusy",
+    "herbal",
+    "sugarlike"
+  ],
+  "origin": "Major aroma hop of the Alsace area of France.",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 4,
+    "fruity": 0,
+    "floral": 2,
+    "herbal": 3,
+    "spicy": 2,
+    "resinous": 2,
+    "sugarlike": 3,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "grapefruit",
+    "citrusy",
+    "herbal"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 1500,
+      "max": 2000
+    },
+    "maturity": "late",
+    "wiltDisease": "tolerant",
+    "downyMildew": "susceptible",
+    "powderyMildew": "susceptible",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 3.0,
+      "max": 5.0
+    },
+    "betas": {
+      "min": 3.0,
+      "max": 5.5
+    },
+    "cohumulones": {
+      "min": 20,
+      "max": 25
+    },
+    "polyphenols": 3.7,
+    "xanthohumols": {
+      "min": 0.1,
+      "max": 0.2
+    },
+    "oils": {
+      "min": 0.6,
+      "max": 0.8
+    },
+    "farnesenes": {
+      "min": 0,
+      "max": 1.0
+    },
+    "linalool": {
+      "min": 0.5,
+      "max": 0.6
+    },
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [
+        "crystal",
+        "hersbrucker-spät"
+      ],
+      "dryhopping": [
+        "crystal"
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "lemondrop",
+  "name": "Lemondrop",
+  "altName": null,
+  "country": "US",
+  "descriptors": [
+    "citrusy",
+    "resinous"
+  ],
+  "origin": "Hopsteiner breeding program",
+  "lineage": [],
+  "aroma": {
+    "citrusy": 2,
+    "fruity": 1,
+    "floral": 1,
+    "herbal": 2,
+    "spicy": 1,
+    "resinous": 3,
+    "sugarlike": 1,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "lemon",
+    "mint",
+    "green tea",
+    "slightly melon"
+  ],
+  "agronomic": {
+    "yield": {
+      "min": 2450,
+      "max": 2900
+    },
+    "maturity": "early to mid early",
+    "wiltDisease": null,
+    "downyMildew": "tolerant",
+    "powderyMildew": "susceptible",
+    "aphid": null
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 5.0,
+      "max": 7.0
+    },
+    "betas": {
+      "min": 4.0,
+      "max": 6.0
+    },
+    "cohumulones": {
+      "min": 28,
+      "max": 34
+    },
+    "polyphenols": 4.25,
+    "xanthohumols": {
+      "min": 0.2,
+      "max": 0.3
+    },
+    "oils": {
+      "min": 1.5,
+      "max": 2.0
+    },
+    "farnesenes": {
+      "min": 6.0,
+      "max": 7.0
+    },
+    "linalool": {
+      "min": 0.4,
+      "max": 0.6
+    },
+    "thiols": "low",
+    "alternatives": {
+      "brewhouse": [
+        "cascade",
+        "mandarina-bavaria",
+        "centennial"
+      ],
+      "dryhopping": [
+        "cascade",
+        "mandarina-bavaria",
+        "centennial"
+      ]
+    }
+  }
+}

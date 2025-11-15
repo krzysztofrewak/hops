@@ -1,0 +1,71 @@
+{
+  "id": "ariana",
+  "name": "Ariana",
+  "altName": null,
+  "country": "DE",
+  "descriptors": [
+    "fruity",
+    "citrusy",
+    "floral"
+  ],
+  "origin": "Herkules x wild hop male",
+  "lineage": [
+    "herkules"
+  ],
+  "aroma": {
+    "citrusy": 5,
+    "fruity": 4,
+    "floral": 3,
+    "herbal": 2,
+    "spicy": 0,
+    "resinous": 2,
+    "sugarlike": 2,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "black berries",
+    "black currant",
+    "peach",
+    "pear",
+    "tropical fruits",
+    "resinous"
+  ],
+  "agronomic": {
+    "yield": null,
+    "maturity": "very late",
+    "wiltDisease": "resistant",
+    "downyMildew": "tolerant",
+    "powderyMildew": "resistant",
+    "aphid": "tolerant"
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 9.0,
+      "max": 13.0
+    },
+    "betas": {
+      "min": 4.5,
+      "max": 6.0
+    },
+    "cohumulones": {
+      "min": 40,
+      "max": 42
+    },
+    "polyphenols": null,
+    "xanthohumols": {
+      "min": 0.4,
+      "max": 0.6
+    },
+    "oils": {
+      "min": 1.6,
+      "max": 2.4
+    },
+    "farnesenes": null,
+    "linalool": null,
+    "thiols": "medium",
+    "alternatives": {
+      "brewhouse": [],
+      "dryhopping": []
+    }
+  }
+}

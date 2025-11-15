@@ -1,0 +1,80 @@
+{
+  "id": "hallertau-blanc",
+  "name": "Hallertau Blanc",
+  "altName": null,
+  "country": "DE",
+  "descriptors": [
+    "fruity",
+    "citrusy",
+    "spicy"
+  ],
+  "origin": "Cascade x Huell male",
+  "lineage": [
+    "cascade",
+    "huell male"
+  ],
+  "aroma": {
+    "citrusy": 3,
+    "fruity": 3,
+    "floral": 2,
+    "herbal": 1,
+    "spicy": 3,
+    "resinous": 2,
+    "sugarlike": 1,
+    "misc": 0
+  },
+  "aromaDescription": [
+    "white wine",
+    "coffee",
+    "cassis",
+    "gooseberry"
+  ],
+  "agronomic": {
+    "yield": null,
+    "maturity": "late",
+    "wiltDisease": "tolerant",
+    "downyMildew": "resistant",
+    "powderyMildew": "resistant",
+    "aphid": "tolerant"
+  },
+  "ingredients": {
+    "alphas": {
+      "min": 9.0,
+      "max": 12.0
+    },
+    "betas": {
+      "min": 4.0,
+      "max": 6.0
+    },
+    "cohumulones": {
+      "min": 22,
+      "max": 26
+    },
+    "polyphenols": 5.8,
+    "xanthohumols": {
+      "min": 0.2,
+      "max": 0.4
+    },
+    "oils": {
+      "min": 0.8,
+      "max": 1.5
+    },
+    "farnesenes": {
+      "min": 0,
+      "max": 3.5
+    },
+    "linalool": {
+      "min": 0.2,
+      "max": 0.5
+    },
+    "thiols": "high",
+    "alternatives": {
+      "brewhouse": [
+        "nelson-sauvin"
+      ],
+      "dryhopping": [
+        "nelson-sauvin"
+      ]
+    }
+  }
+}
