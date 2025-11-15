@@ -1,77 +1,80 @@
 {
-  "id": "hallertauer-magnum",
-  "name": "Hallertauer Magnum",
-  "altName": null,
-  "country": "DE",
-  "descriptors": [
+  id: "hallertauer-magnum",
+  name: "Hallertauer Magnum",
+  altName: null,
+  country: "DE",
+  descriptors: [
     "spicy",
-    "fruity"
+    "fruity",
   ],
-  "origin": "A Galena cross (751513M) originating in Germany, released in 1993.",
-  "lineage": [
+  origin: "A Galena cross (751513M) originating in Germany, released in 1993.",
+  lineage: [
     "galena",
-    "751513m"
+    "751513m",
   ],
-  "aroma": {
-    "citrusy": 2,
-    "fruity": 3,
-    "floral": 1,
-    "herbal": 2,
-    "spicy": 4,
-    "resinous": 1,
-    "sugarlike": 0,
-    "misc": 0
+  aroma: {
+    citrusy: 2,
+    fruity: 3,
+    floral: 1,
+    herbal: 2,
+    spicy: 4,
+    resinous: 1,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "pepper",
     "fruity",
-    "apple"
+    "apple",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1700,
-      "max": 2100
+  agronomic: {
+    yield: {
+      min: 1700,
+      max: 2100,
     },
-    "maturity": "late",
-    "wiltDisease": "resistant",
-    "downyMildew": "resistant",
-    "powderyMildew": "susceptible",
-    "aphid": "susceptible"
+    maturity: "late",
+    wiltDisease: "resistant",
+    downyMildew: "resistant",
+    powderyMildew: "susceptible",
+    aphid: "susceptible",
   },
-  "ingredients": {
-    "alphas": {
-      "min": 11.0,
-      "max": 16.0
+  ingredients: {
+    alphas: {
+      min: 11.0,
+      max: 16.0,
     },
-    "betas": {
-      "min": 5.0,
-      "max": 7.0
+    betas: {
+      min: 5.0,
+      max: 7.0,
     },
-    "cohumulones": {
-      "min": 21,
-      "max": 29
+    cohumulones: {
+      min: 21,
+      max: 29,
     },
-    "polyphenols": 2.6,
-    "xanthohumols": {
-      "min": 0.4,
-      "max": 0.5
+    polyphenols: {
+      min: 2.6,
+      max: 2.6,
     },
-    "oils": {
-      "min": 1.9,
-      "max": 2.8
+    xanthohumols: {
+      min: 0.4,
+      max: 0.5,
     },
-    "farnesenes": {
-      "min": 0,
-      "max": 1.0
+    oils: {
+      min: 1.9,
+      max: 2.8,
     },
-    "linalool": {
-      "min": 0.2,
-      "max": 0.3
+    farnesenes: {
+      min: 0,
+      max: 1.0,
     },
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    linalool: {
+      min: 0.2,
+      max: 0.3,
+    },
+    thiols: "low",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

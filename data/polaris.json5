@@ -1,78 +1,78 @@
 {
-  "id": "polaris",
-  "name": "Polaris",
-  "altName": null,
-  "country": "DE",
-  "descriptors": [
+  id: "polaris",
+  name: "Polaris",
+  altName: null,
+  country: "DE",
+  descriptors: [
     "fruity",
     "citrusy",
-    "spicy"
+    "spicy",
   ],
-  "origin": "94/075/758 x 97/060/720 (div. Huell material)",
-  "lineage": [
+  origin: "94/075/758 x 97/060/720 (div. Huell material)",
+  lineage: [
     "94/075/758",
-    "97/060/720"
+    "97/060/720",
   ],
-  "aroma": {
-    "citrusy": 3,
-    "fruity": 4,
-    "floral": 1,
-    "herbal": 2,
-    "spicy": 3,
-    "resinous": 1,
-    "sugarlike": 2,
-    "misc": 0
+  aroma: {
+    citrusy: 3,
+    fruity: 4,
+    floral: 1,
+    herbal: 2,
+    spicy: 3,
+    resinous: 1,
+    sugarlike: 2,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "menthol",
     "icewine",
-    "pineapple"
+    "pineapple",
   ],
-  "agronomic": {
-    "yield": {
-      "min": null,
-      "max": null
-    },
-    "maturity": "very late",
-    "wiltDisease": "resistant",
-    "downyMildew": "susceptible",
-    "powderyMildew": "susceptible",
-    "aphid": "susceptible"
+  agronomic: {
+    yield: null,
+    maturity: "very late",
+    wiltDisease: "resistant",
+    downyMildew: "susceptible",
+    powderyMildew: "susceptible",
+    aphid: "susceptible",
   },
-  "ingredients": {
-    "alphas": {
-      "min": 19.0,
-      "max": 23.0
+  ingredients: {
+    alphas: {
+      min: 19.0,
+      max: 23.0,
     },
-    "betas": {
-      "min": 4.0,
-      "max": 6.0
+    betas: {
+      min: 4.0,
+      max: 6.0,
     },
-    "cohumulones": {
-      "min": 22,
-      "max": 28
+    cohumulones: {
+      min: 22,
+      max: 28,
     },
-    "polyphenols": 3.3,
-    "xanthohumols": {
-      "min": 0.7,
-      "max": 1.0
+    polyphenols: {
+      min: 3.3,
+      max: 3.3,
     },
-    "oils": {
-      "min": 2.4,
-      "max": 4.4
+    xanthohumols: {
+      min: 0.7,
+      max: 1.0,
     },
-    "farnesenes": {
-      "min": 0,
-      "max": 1.0
+    oils: {
+      min: 2.4,
+      max: 4.4,
     },
-    "linalool": {
-      "min": 0.1,
-      "max": 0.4
+    farnesenes: {
+      min: 0,
+      max: 1.0,
     },
-    "thiols": "high",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    linalool: {
+      min: 0.1,
+      max: 0.4,
+    },
+    thiols: "high",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

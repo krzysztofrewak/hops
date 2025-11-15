@@ -1,77 +1,80 @@
 {
-  "id": "smaragd",
-  "name": "Smaragd",
-  "altName": null,
-  "country": "DE",
-  "descriptors": [
+  id: "smaragd",
+  name: "Smaragd",
+  altName: null,
+  country: "DE",
+  descriptors: [
     "herbal",
-    "spicy"
+    "spicy",
   ],
-  "origin": "New variety bred in Huell",
-  "lineage": [],
-  "aroma": {
-    "citrusy": 1,
-    "fruity": 1,
-    "floral": 2,
-    "herbal": 3,
-    "spicy": 3,
-    "resinous": 1,
-    "sugarlike": 0,
-    "misc": 0
+  origin: "New variety bred in Huell",
+  lineage: [],
+  aroma: {
+    citrusy: 1,
+    fruity: 1,
+    floral: 2,
+    herbal: 3,
+    spicy: 3,
+    resinous: 1,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "spicy",
     "aniseed",
     "tobacco",
-    "clover"
+    "clover",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1500,
-      "max": 2100
+  agronomic: {
+    yield: {
+      min: 1500,
+      max: 2100,
     },
-    "maturity": "mid early to late",
-    "wiltDisease": "resistant",
-    "downyMildew": "resistant",
-    "powderyMildew": "susceptible",
-    "aphid": "tolerant"
+    maturity: "mid early to late",
+    wiltDisease: "resistant",
+    downyMildew: "resistant",
+    powderyMildew: "susceptible",
+    aphid: "tolerant",
   },
-  "ingredients": {
-    "alphas": {
-      "min": 4.0,
-      "max": 6.0
+  ingredients: {
+    alphas: {
+      min: 4.0,
+      max: 6.0,
     },
-    "betas": {
-      "min": 3.5,
-      "max": 5.5
+    betas: {
+      min: 3.5,
+      max: 5.5,
     },
-    "cohumulones": {
-      "min": 13,
-      "max": 18
+    cohumulones: {
+      min: 13,
+      max: 18,
     },
-    "polyphenols": 4.5,
-    "xanthohumols": {
-      "min": 0.2,
-      "max": 0.3
+    polyphenols: {
+      min: 4.5,
+      max: 4.5,
     },
-    "oils": {
-      "min": 0.4,
-      "max": 0.8
+    xanthohumols: {
+      min: 0.2,
+      max: 0.3,
     },
-    "farnesenes": {
-      "min": 0,
-      "max": 1.0
+    oils: {
+      min: 0.4,
+      max: 0.8,
     },
-    "linalool": {
-      "min": 0.8,
-      "max": 1.4
+    farnesenes: {
+      min: 0,
+      max: 1.0,
     },
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [
-        "opal"
+    linalool: {
+      min: 0.8,
+      max: 1.4,
+    },
+    thiols: "low",
+    alternatives: {
+      brewhouse: [
+        "opal",
       ],
-      "dryhopping": []
-    }
-  }
+      dryhopping: [],
+    },
+  },
 }

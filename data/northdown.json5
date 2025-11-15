@@ -1,74 +1,74 @@
 {
-  "id": "northdown",
-  "name": "Northdown",
-  "altName": null,
-  "country": "UK",
-  "descriptors": [
+  id: "northdown",
+  name: "Northdown",
+  altName: null,
+  country: "UK",
+  descriptors: [
     "spicy",
     "floral",
-    "herbal"
+    "herbal",
   ],
-  "origin": "Bred at Wye College from a Northern Brewer and a downy mildew-resistant male cross; closely related to both Target and Challenger; released for commercial planting in the early 1970's.",
-  "lineage": [
-    "northern brewer"
+  origin: "Bred at Wye College from a Northern Brewer and a downy mildew-resistant male cross; closely related to both Target and Challenger; released for commercial planting in the early 1970's.",
+  lineage: [
+    "northern brewer",
   ],
-  "aroma": {
-    "citrusy": 0,
-    "fruity": 0,
-    "floral": 3,
-    "herbal": 3,
-    "spicy": 3,
-    "resinous": 2,
-    "sugarlike": 0,
-    "misc": 0
+  aroma: {
+    citrusy: 0,
+    fruity: 0,
+    floral: 3,
+    herbal: 3,
+    spicy: 3,
+    resinous: 2,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "spicy",
     "floral",
-    "pine"
+    "pine",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1500,
-      "max": 1750
+  agronomic: {
+    yield: {
+      min: 1500,
+      max: 1750,
     },
-    "maturity": "early to mid early",
-    "wiltDisease": "susceptible",
-    "downyMildew": "tolerant",
-    "powderyMildew": "susceptible",
-    "aphid": null
+    maturity: "early to mid early",
+    wiltDisease: "susceptible",
+    downyMildew: "tolerant",
+    powderyMildew: "susceptible",
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 6.0,
-      "max": 10.0
+  ingredients: {
+    alphas: {
+      min: 6.0,
+      max: 10.0,
     },
-    "betas": {
-      "min": 4.5,
-      "max": 6.5
+    betas: {
+      min: 4.5,
+      max: 6.5,
     },
-    "cohumulones": {
-      "min": 30,
-      "max": 32
+    cohumulones: {
+      min: 30,
+      max: 32,
     },
-    "polyphenols": null,
-    "xanthohumols": {
-      "min": 0.3,
-      "max": 0.4
+    polyphenols: null,
+    xanthohumols: {
+      min: 0.3,
+      max: 0.4,
     },
-    "oils": {
-      "min": 1.2,
-      "max": 2.2
+    oils: {
+      min: 1.2,
+      max: 2.2,
     },
-    "farnesenes": {
-      "min": 1.0,
-      "max": 2.0
+    farnesenes: {
+      min: 1.0,
+      max: 2.0,
     },
-    "linalool": null,
-    "thiols": null,
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    linalool: null,
+    thiols: null,
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

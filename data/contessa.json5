@@ -1,78 +1,78 @@
 {
-  "id": "contessa",
-  "name": "Contessa",
-  "altName": null,
-  "country": "US",
-  "descriptors": [
-    "herbal"
+  id: "contessa",
+  name: "Contessa",
+  altName: null,
+  country: "US",
+  descriptors: [
+    "herbal",
   ],
-  "origin": "Hopsteiner breeding program",
-  "lineage": [],
-  "aroma": {
-    "citrusy": 1,
-    "fruity": 1,
-    "floral": 2,
-    "herbal": 2,
-    "spicy": 0,
-    "resinous": 1,
-    "sugarlike": 0,
-    "misc": 0
+  origin: "Hopsteiner breeding program",
+  lineage: [],
+  aroma: {
+    citrusy: 1,
+    fruity: 1,
+    floral: 2,
+    herbal: 2,
+    spicy: 0,
+    resinous: 1,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "green tea",
     "floral",
-    "light pear"
+    "light pear",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1900,
-      "max": 2100
+  agronomic: {
+    yield: {
+      min: 1900,
+      max: 2100,
     },
-    "maturity": "early to mid early",
-    "wiltDisease": null,
-    "downyMildew": null,
-    "powderyMildew": null,
-    "aphid": null
+    maturity: "early to mid early",
+    wiltDisease: null,
+    downyMildew: null,
+    powderyMildew: null,
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 3.0,
-      "max": 5.0
+  ingredients: {
+    alphas: {
+      min: 3.0,
+      max: 5.0,
     },
-    "betas": {
-      "min": 5.0,
-      "max": 7.4
+    betas: {
+      min: 5.0,
+      max: 7.4,
     },
-    "cohumulones": {
-      "min": 29,
-      "max": 32
+    cohumulones: {
+      min: 29,
+      max: 32,
     },
-    "polyphenols": null,
-    "xanthohumols": {
-      "min": 0.1,
-      "max": 0.2
+    polyphenols: null,
+    xanthohumols: {
+      min: 0.1,
+      max: 0.2,
     },
-    "oils": {
-      "min": 0.8,
-      "max": 1.9
+    oils: {
+      min: 0.8,
+      max: 1.9,
     },
-    "farnesenes": {
-      "min": 4.0,
-      "max": 5.5
+    farnesenes: {
+      min: 4.0,
+      max: 5.5,
     },
-    "linalool": {
-      "min": 0.9,
-      "max": 1.0
+    linalool: {
+      min: 0.9,
+      max: 1.0,
     },
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [
+    thiols: "low",
+    alternatives: {
+      brewhouse: [
         "hersbrucker-spät",
-        "willamette"
+        "willamette",
       ],
-      "dryhopping": [
-        "hersbrucker-spät"
-      ]
-    }
-  }
+      dryhopping: [
+        "hersbrucker-spät",
+      ],
+    },
+  },
 }

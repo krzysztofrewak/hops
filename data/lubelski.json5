@@ -21,7 +21,7 @@
     spicy: 4,
     resinous: 3,
     sugarlike: 0,
-    misc: 0,
+    misc: 0
   },
   aromaDescription: [
     "tea",
@@ -31,26 +31,26 @@
   agronomic: {
     yield: {
       min: 1000,
-      max: 1400,
+      max: 1400
     },
     maturity: "early",
     wiltDisease: null,
     downyMildew: "tolerant",
     powderyMildew: null,
-    aphid: null,
+    aphid: null
   },
   ingredients: {
     alphas: {
       min: 3.0,
-      max: 4.5,
+      max: 4.5
     },
     betas: {
       min: 2.5,
-      max: 3.5,
+      max: 3.5
     },
     cohumulones: {
       min: 25,
-      max: 30,
+      max: 30
     },
     polyphenols: null,
     xanthohumols: {
@@ -63,7 +63,7 @@
     },
     farnesenes: {
       min: 10.0,
-      max: 12.0,
+      max: 12.0
     },
     linalool: null,
     thiols: "low",
@@ -77,7 +77,7 @@
         "tettnanger",
         "spalter",
         "saazer"
-      ],
+      ]
     }
   }
 }

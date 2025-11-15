@@ -1,64 +1,64 @@
 {
-  "id": "melba",
-  "name": "Melba",
-  "altName": null,
-  "country": "AU",
-  "descriptors": [
+  id: "melba",
+  name: "Melba",
+  altName: null,
+  country: "AU",
+  descriptors: [
     "fruity",
-    "citrusy"
+    "citrusy",
   ],
-  "origin": null,
-  "lineage": [],
-  "aroma": {
-    "citrusy": 3,
-    "fruity": 4,
-    "floral": 0,
-    "herbal": 0,
-    "spicy": 0,
-    "resinous": 0,
-    "sugarlike": 2,
-    "misc": 0
+  origin: null,
+  lineage: [],
+  aroma: {
+    citrusy: 3,
+    fruity: 4,
+    floral: 0,
+    herbal: 0,
+    spicy: 0,
+    resinous: 0,
+    sugarlike: 2,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "passionfruit",
-    "grapefruit"
+    "grapefruit",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 2200,
-      "max": 2800
+  agronomic: {
+    yield: {
+      min: 2200,
+      max: 2800,
     },
-    "maturity": null,
-    "wiltDisease": null,
-    "downyMildew": null,
-    "powderyMildew": null,
-    "aphid": null
+    maturity: null,
+    wiltDisease: null,
+    downyMildew: null,
+    powderyMildew: null,
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 7.0,
-      "max": 10.0
+  ingredients: {
+    alphas: {
+      min: 7.0,
+      max: 10.0,
     },
-    "betas": {
-      "min": 2.5,
-      "max": 5.0
+    betas: {
+      min: 2.5,
+      max: 5.0,
     },
-    "cohumulones": {
-      "min": 25,
-      "max": 35
+    cohumulones: {
+      min: 25,
+      max: 35,
     },
-    "polyphenols": null,
-    "xanthohumols": null,
-    "oils": {
-      "min": 2.0,
-      "max": 4.0
+    polyphenols: null,
+    xanthohumols: null,
+    oils: {
+      min: 2.0,
+      max: 4.0,
     },
-    "farnesenes": null,
-    "linalool": null,
-    "thiols": null,
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    farnesenes: null,
+    linalool: null,
+    thiols: null,
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

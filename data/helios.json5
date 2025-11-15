@@ -1,67 +1,67 @@
 {
-  "id": "helios",
-  "name": "Helios",
-  "altName": null,
-  "country": "US",
-  "descriptors": [
+  id: "helios",
+  name: "Helios",
+  altName: null,
+  country: "US",
+  descriptors: [
     "spicy",
-    "resinous"
+    "resinous",
   ],
-  "origin": "Hopsteiner breeding program",
-  "lineage": [],
-  "aroma": {
-    "citrusy": 0,
-    "fruity": 1,
-    "floral": 1,
-    "herbal": 2,
-    "spicy": 2,
-    "resinous": 3,
-    "sugarlike": 0,
-    "misc": 0
+  origin: "Hopsteiner breeding program",
+  lineage: [],
+  aroma: {
+    citrusy: 0,
+    fruity: 1,
+    floral: 1,
+    herbal: 2,
+    spicy: 2,
+    resinous: 3,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "tea",
-    "pepper"
+    "pepper",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 3600,
-      "max": 3900
+  agronomic: {
+    yield: {
+      min: 3600,
+      max: 3900,
     },
-    "maturity": "early",
-    "wiltDisease": null,
-    "downyMildew": "tolerant",
-    "powderyMildew": "resistant",
-    "aphid": null
+    maturity: "early",
+    wiltDisease: null,
+    downyMildew: "tolerant",
+    powderyMildew: "resistant",
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 18.0,
-      "max": 21.0
+  ingredients: {
+    alphas: {
+      min: 18.0,
+      max: 21.0,
     },
-    "betas": {
-      "min": 3.5,
-      "max": 4.5
+    betas: {
+      min: 3.5,
+      max: 4.5,
     },
-    "cohumulones": {
-      "min": 26,
-      "max": 29
+    cohumulones: {
+      min: 26,
+      max: 29,
     },
-    "polyphenols": null,
-    "xanthohumols": null,
-    "oils": {
-      "min": 1.5,
-      "max": 2.0
+    polyphenols: null,
+    xanthohumols: null,
+    oils: {
+      min: 1.5,
+      max: 2.0,
     },
-    "farnesenes": null,
-    "linalool": {
-      "min": 0.6,
-      "max": 0.7
+    farnesenes: null,
+    linalool: {
+      min: 0.6,
+      max: 0.7,
     },
-    "thiols": "medium",
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    thiols: "medium",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

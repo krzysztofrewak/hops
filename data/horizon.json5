@@ -1,73 +1,73 @@
 {
-  "id": "horizon",
-  "name": "Horizon",
-  "altName": null,
-  "country": "US",
-  "descriptors": [
-    "floral"
+  id: "horizon",
+  name: "Horizon",
+  altName: null,
+  country: "US",
+  descriptors: [
+    "floral",
   ],
-  "origin": "Released in 1998 from a cross between a selected high alpha-acid and high beta-acid USDA female and a selected USDA Geman aroma male.",
-  "lineage": [],
-  "aroma": {
-    "citrusy": 2,
-    "fruity": 1,
-    "floral": 3,
-    "herbal": 1,
-    "spicy": 2,
-    "resinous": 1,
-    "sugarlike": 0,
-    "misc": 0
+  origin: "Released in 1998 from a cross between a selected high alpha-acid and high beta-acid USDA female and a selected USDA Geman aroma male.",
+  lineage: [],
+  aroma: {
+    citrusy: 2,
+    fruity: 1,
+    floral: 3,
+    herbal: 1,
+    spicy: 2,
+    resinous: 1,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "floral",
     "citrusy",
-    "spicy"
+    "spicy",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1350,
-      "max": 1700
+  agronomic: {
+    yield: {
+      min: 1350,
+      max: 1700,
     },
-    "maturity": "mid early to late",
-    "wiltDisease": null,
-    "downyMildew": "susceptible",
-    "powderyMildew": "susceptible",
-    "aphid": null
+    maturity: "mid early to late",
+    wiltDisease: null,
+    downyMildew: "susceptible",
+    powderyMildew: "susceptible",
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 10.0,
-      "max": 14.0
+  ingredients: {
+    alphas: {
+      min: 10.0,
+      max: 14.0,
     },
-    "betas": {
-      "min": 6.0,
-      "max": 8.5
+    betas: {
+      min: 6.0,
+      max: 8.5,
     },
-    "cohumulones": {
-      "min": 18,
-      "max": 20
+    cohumulones: {
+      min: 18,
+      max: 20,
     },
-    "polyphenols": null,
-    "xanthohumols": {
-      "min": 0.3,
-      "max": 0.4
+    polyphenols: null,
+    xanthohumols: {
+      min: 0.3,
+      max: 0.4,
     },
-    "oils": {
-      "min": 1.5,
-      "max": 2.5
+    oils: {
+      min: 1.5,
+      max: 2.5,
     },
-    "farnesenes": {
-      "min": 2.0,
-      "max": 3.0
+    farnesenes: {
+      min: 2.0,
+      max: 3.0,
     },
-    "linalool": {
-      "min": 2.0,
-      "max": 3.0
+    linalool: {
+      min: 2.0,
+      max: 3.0,
     },
-    "thiols": null,
-    "alternatives": {
-      "brewhouse": [],
-      "dryhopping": []
-    }
-  }
+    thiols: null,
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }

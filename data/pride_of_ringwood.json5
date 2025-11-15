@@ -1,77 +1,77 @@
 {
-  "id": "pride-of-ringwood",
-  "name": "Pride of Ringwood",
-  "altName": null,
-  "country": "AU",
-  "descriptors": [
+  id: "pride-of-ringwood",
+  name: "Pride of Ringwood",
+  altName: null,
+  country: "AU",
+  descriptors: [
     "fruity",
     "citrusy",
     "herbal",
     "spicy",
-    "resinous"
+    "resinous",
   ],
-  "origin": "Bred in Australia from an English variety - Pride of Kent; released in 1965.",
-  "lineage": [
-    "pride of kent"
+  origin: "Bred in Australia from an English variety - Pride of Kent; released in 1965.",
+  lineage: [
+    "pride of kent",
   ],
-  "aroma": {
-    "citrusy": 3,
-    "fruity": 3,
-    "floral": 0,
-    "herbal": 3,
-    "spicy": 3,
-    "resinous": 3,
-    "sugarlike": 2,
-    "misc": 0
+  aroma: {
+    citrusy: 3,
+    fruity: 3,
+    floral: 0,
+    herbal: 3,
+    spicy: 3,
+    resinous: 3,
+    sugarlike: 2,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "fruity",
     "citrusy",
     "cedar",
-    "herbal"
+    "herbal",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 2200,
-      "max": 2800
+  agronomic: {
+    yield: {
+      min: 2200,
+      max: 2800,
     },
-    "maturity": null,
-    "wiltDisease": null,
-    "downyMildew": null,
-    "powderyMildew": null,
-    "aphid": null
+    maturity: null,
+    wiltDisease: null,
+    downyMildew: null,
+    powderyMildew: null,
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 7.0,
-      "max": 10.0
+  ingredients: {
+    alphas: {
+      min: 7.0,
+      max: 10.0,
     },
-    "betas": {
-      "min": 4.0,
-      "max": 6.0
+    betas: {
+      min: 4.0,
+      max: 6.0,
     },
-    "cohumulones": {
-      "min": 33,
-      "max": 39
+    cohumulones: {
+      min: 33,
+      max: 39,
     },
-    "polyphenols": null,
-    "xanthohumols": null,
-    "oils": {
-      "min": 1.0,
-      "max": 2.0
+    polyphenols: null,
+    xanthohumols: null,
+    oils: {
+      min: 1.0,
+      max: 2.0,
     },
-    "farnesenes": {
-      "min": 0,
-      "max": 1.0
+    farnesenes: {
+      min: 0,
+      max: 1.0,
     },
-    "linalool": null,
-    "thiols": null,
-    "alternatives": {
-      "brewhouse": [
+    linalool: null,
+    thiols: null,
+    alternatives: {
+      brewhouse: [
         "cluster",
-        "galena"
+        "galena",
       ],
-      "dryhopping": []
-    }
-  }
+      dryhopping: [],
+    },
+  },
 }

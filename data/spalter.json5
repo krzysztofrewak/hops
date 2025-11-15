@@ -1,82 +1,85 @@
 {
-  "id": "spalter",
-  "name": "Spalter",
-  "altName": null,
-  "country": "DE",
-  "descriptors": [
-    "herbal"
+  id: "spalter",
+  name: "Spalter",
+  altName: null,
+  country: "DE",
+  descriptors: [
+    "herbal",
   ],
-  "origin": "A landrace variety originating in Germany.",
-  "lineage": [],
-  "aroma": {
-    "citrusy": 1,
-    "fruity": 1,
-    "floral": 2,
-    "herbal": 3,
-    "spicy": 2,
-    "resinous": 0,
-    "sugarlike": 0,
-    "misc": 0
+  origin: "A landrace variety originating in Germany.",
+  lineage: [],
+  aroma: {
+    citrusy: 1,
+    fruity: 1,
+    floral: 2,
+    herbal: 3,
+    spicy: 2,
+    resinous: 0,
+    sugarlike: 0,
+    misc: 0,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "pine",
     "vanilla",
-    "tea"
+    "tea",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 1000,
-      "max": 1300
+  agronomic: {
+    yield: {
+      min: 1000,
+      max: 1300,
     },
-    "maturity": "early",
-    "wiltDisease": "resistant",
-    "downyMildew": "susceptible",
-    "powderyMildew": "resistant",
-    "aphid": "susceptible"
+    maturity: "early",
+    wiltDisease: "resistant",
+    downyMildew: "susceptible",
+    powderyMildew: "resistant",
+    aphid: "susceptible",
   },
-  "ingredients": {
-    "alphas": {
-      "min": 2.5,
-      "max": 5.5
+  ingredients: {
+    alphas: {
+      min: 2.5,
+      max: 5.5,
     },
-    "betas": {
-      "min": 3.0,
-      "max": 5.0
+    betas: {
+      min: 3.0,
+      max: 5.0,
     },
-    "cohumulones": {
-      "min": 22,
-      "max": 29
+    cohumulones: {
+      min: 22,
+      max: 29,
     },
-    "polyphenols": 5.3,
-    "xanthohumols": {
-      "min": 0.2,
-      "max": 0.3
+    polyphenols: {
+      min: 5.3,
+      max: 5.3,
     },
-    "oils": {
-      "min": 0.5,
-      "max": 1.0
+    xanthohumols: {
+      min: 0.2,
+      max: 0.3,
     },
-    "farnesenes": {
-      "min": 12.0,
-      "max": 18.0
+    oils: {
+      min: 0.5,
+      max: 1.0,
     },
-    "linalool": {
-      "min": 0.5,
-      "max": 0.8
+    farnesenes: {
+      min: 12.0,
+      max: 18.0,
     },
-    "thiols": "low",
-    "alternatives": {
-      "brewhouse": [
+    linalool: {
+      min: 0.5,
+      max: 0.8,
+    },
+    thiols: "low",
+    alternatives: {
+      brewhouse: [
         "tettnanger",
         "saazer",
         "lubelski-(lublin)",
-        "hersbrucker-spät"
+        "hersbrucker-spät",
       ],
-      "dryhopping": [
+      dryhopping: [
         "tettnanger",
         "saazer",
-        "lubelski-(lublin)"
-      ]
-    }
-  }
+        "lubelski-(lublin)",
+      ],
+    },
+  },
 }

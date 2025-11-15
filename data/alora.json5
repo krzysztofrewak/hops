@@ -1,72 +1,72 @@
 {
-  "id": "alora",
-  "name": "Alora",
-  "altName": null,
-  "country": "US",
-  "descriptors": [
+  id: "alora",
+  name: "Alora",
+  altName: null,
+  country: "US",
+  descriptors: [
     "fruity",
     "citrusy",
-    "misc"
+    "misc",
   ],
-  "origin": "Hopsteiner Breeding Program",
-  "aroma": {
-    "citrusy": 4,
-    "fruity": 4,
-    "floral": 1,
-    "herbal": 1,
-    "spicy": 0,
-    "resinous": 0,
-    "sugarlike": 2,
-    "misc": 3
+  origin: "Hopsteiner Breeding Program",
+  aroma: {
+    citrusy: 4,
+    fruity: 4,
+    floral: 1,
+    herbal: 1,
+    spicy: 0,
+    resinous: 0,
+    sugarlike: 2,
+    misc: 3,
   },
-  "aromaDescription": [
+  aromaDescription: [
     "peach",
     "yuzu fruit",
     "sweet melon",
     "apricot",
   ],
-  "agronomic": {
-    "yield": {
-      "min": 2550,
-      "max": 2800
+  agronomic: {
+    yield: {
+      min: 2550,
+      max: 2800,
     },
-    "maturity": "early",
-    "wiltDisease": null,
-    "downyMildew": "resistant",
-    "powderyMildew": "resistant",
-    "aphid": null
+    maturity: "early",
+    wiltDisease: null,
+    downyMildew: "resistant",
+    powderyMildew: "resistant",
+    aphid: null,
   },
-  "ingredients": {
-    "alphas": {
-      "min": 7.0,
-      "max": 10.0
+  ingredients: {
+    alphas: {
+      min: 7.0,
+      max: 10.0,
     },
-    "betas": {
-      "min": 3.5,
-      "max": 4.0
+    betas: {
+      min: 3.5,
+      max: 4.0,
     },
-    "cohumulones": {
-      "min": 28.0,
-      "max": 32.0
+    cohumulones: {
+      min: 28.0,
+      max: 32.0,
     },
-    "polyphenols": null,
-    "xanthohumols": null,
-    "oils": {
-      "min": 0.8,
-      "max": 1.3
+    polyphenols: null,
+    xanthohumols: null,
+    oils: {
+      min: 0.8,
+      max: 1.3,
     },
-    "farnesenes": {
-      "min": 0.0,
-      "max": 0.1
+    farnesenes: {
+      min: 0.0,
+      max: 0.1,
     },
-    "linalool": {
-      "min": 0.3,
-      "max": 0.6
+    linalool: {
+      min: 0.3,
+      max: 0.6,
     },
-    "thiols": "high",
-    "alternatives": {
-      "brewhouse": null,
-      "dryhopping": null
-    }
-  }
+    thiols: "high",
+    alternatives: {
+      brewhouse: [],
+      dryhopping: [],
+    },
+  },
 }
