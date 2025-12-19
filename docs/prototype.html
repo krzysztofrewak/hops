@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hop AI prototype</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body class="bg-gray-100 text-gray-800">
+    <div class="max-w-6xl mx-auto p-6 space-y-10" x-data="demoApp()">
+      <section class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-xl font-semibold mb-4">Example prompts</h2>
+
+        <div class="flex flex-wrap gap-3">
+          <template x-for="prompt in prompts" :key="prompt.id">
+            <button class="px-4 py-2 rounded border transition" :class="selectedPrompt === prompt.id
+                        ? 'bg-blue-600 text-white border-blue-600'
+                        : 'bg-gray-50 hover:bg-gray-100 border-gray-300'" @click="selectPrompt(prompt)">
+              <span x-text="prompt.label"></span>
+            </button>
+          </template>
+        </div>
+      </section>
+
+      <section class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-xl font-semibold mb-4">Modules</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <template x-for="module in modules" :key="module.name">
+            <div class="p-4 rounded border transition" :class="activeModules.includes(module.name)
+                        ? 'bg-green-100 border-green-400'
+                        : 'bg-gray-50 border-gray-300'">
+              <div class="font-medium capitalize" x-text="module.name"></div>
+              <div class="text-sm text-gray-600">
+                weight: <span x-text="module.weight"></span>
+              </div>
+            </div>
+          </template>
+        </div>
+      </section>
+
+      <section class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-xl font-semibold mb-4">Results</h2>
+
+        <table class="w-full border-collapse">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="text-left p-2 border">Hop name</th>
+              <th class="text-right p-2 border">Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <template x-for="row in results" :key="row.name">
+              <tr>
+                <td class="p-2 border" x-text="row.name"></td>
+                <td class="p-2 border text-right font-mono">
+                  <span x-text="row.score.toFixed(3)"></span>
+                </td>
+              </tr>
+            </template>
+
+            <tr x-show="results.length === 0">
+              <td colspan="2" class="p-4 text-center text-gray-500">
+                Choose a prompt to see results.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <script>
+      function demoApp() {
+        return {
+          selectedPrompt: null,
+          activeModules: [],
+          results: [],
+          prompts: [
+            {id: 1, label: 'alternative to Bobek', modules: ['matrix', 'alternatives']},
+            {id: 2, label: 'like Simcoe, but less bitter', modules: ['matrix', 'alternatives', 'feeling']},
+            {id: 3, label: 'with grapefriut aroma', modules: ['description']},
+            {id: 4, label: 'citrussy, but not resinous', modules: ['aroma']},
+            {id: 5, label: 'alpha acids at 14% and exotic aroma', modules: ['description', 'chemistry']},
+          ],
+          modules: [
+            {name: 'matrix', weight: 0.6},
+            {name: 'chemistry', weight: 0.8},
+            {name: 'aroma', weight: 0.7},
+            {name: 'description', weight: 0.5},
+            {name: 'feeling', weight: 0.9},
+            {name: 'alternatives', weight: 0.2},
+          ],
+          selectPrompt(prompt) {
+            this.selectedPrompt = prompt.id
+            this.activeModules = prompt.modules
+            this.generateResults()
+          },
+          generateResults() {
+            const objects = [
+              'Hop A',
+              'Hop B',
+              'Hop C',
+              'Hop D',
+              'Hop E',
+            ]
+
+            this.results = objects
+                .map(name => ({
+                  name,
+                  score: Math.random()
+                }))
+                .sort((a, b) => b.score - a.score)
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
